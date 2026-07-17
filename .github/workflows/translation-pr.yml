@@ -1,0 +1,25 @@
+name: Validate translation pull request
+
+on:
+  pull_request_target:
+    branches:
+      - sync/v*
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/validate-locale-pr.yml@main
+    with:
+      base_repository: ${{ github.repository }}
+      base_sha: ${{ github.event.pull_request.base.sha }}
+      head_repository: ${{ github.event.pull_request.head.repo.full_name }}
+      head_sha: ${{ github.event.pull_request.head.sha }}
+      base_ref: ${{ github.event.pull_request.base.ref }}
+      pull_request_number: ${{ github.event.pull_request.number }}

@@ -30,6 +30,16 @@ dsw-locale version-report \
 Weblate 未鎖定 project 應為 `active`，locked project 應為 `maintenance`；兩者都要有
 `sync/vX.Y` branch。只有 Weblate 不再列出的版本才改為 `retired`。
 
+## Pull Request 驗證
+
+所有以 `sync/vX.Y` 為 base 的 PR 都由 default branch 上的 read-only workflow 驗證。
+翻譯 PR 只能修改 `overrides/*.po`、`extras/*.po`、詞彙、README 或 Markdown 文件；不得
+修改 `upstream/`、workflow 或管理檔案。需要發新版 locale 時，config 只允許提高該
+release line 的 `locale_version`。
+
+Validator 由 `dsw-locale-tool` 提供，依序檢查 PR scope、audit、build 與 package；內容
+repo 不保存第二份 Python 或 shell 實作。
+
 ## Issue 分流
 
 1. 先確認英文原文與 DSW minor version。
