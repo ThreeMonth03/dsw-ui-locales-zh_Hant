@@ -24,8 +24,9 @@
 - `extras/`：實際 UI 出現、但官方 POT 尚未收錄的字串。
 - `glossary/`：跨版本共用詞彙。
 
-`main` 只管理政策與版本設定；Weblate 目前列出的 4.29–4.32 分別位於
-`sync/v4.29`–`sync/v4.32`。完整規則見 [版本政策](docs/version-policy.md)。
+`main` 只管理政策與版本設定；每個 DSW minor line 位於 `sync/vX.Y`。本 repo
+明確維護 4.29–4.32，未來 Weblate 與 `wizard-locales` 出現的新版本會自動建立。
+完整規則見 [版本政策](docs/version-policy.md)。
 
 目前四條版本線都開放回報、補翻、同步、preview 與發版。4.29–4.31 的
 `maintenance` 只對應 Weblate locked 狀態，不代表 archived，也不會停止接受翻譯。

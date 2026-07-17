@@ -1,9 +1,17 @@
 # 維護者指南
 
-## 建立或更新版本 branch
+## 自動建立與更新版本 branch
 
-版本 branch 從 `main` 建立，名稱固定為 `sync/v<major>.<minor>`。切到該 branch 後，
-以 `dsw-locale-tool` 執行：
+`Maintain locale release lines` 每日呼叫 `dsw-locale-tool` 的 reusable workflow。
+新的 Weblate `DSW X.Y` project 只有在 `wizard-locales` 已建立 `vX.Y` branch
+後才會加入 config，並從 `main` 建立 `sync/vX.Y`。新 branch 不複製舊版
+overrides 或 extras。
+
+排程也會重新同步每個未退役 branch 的 baseline，執行 audit、build 與
+package。已有 branch 驗證失敗時不 push；新 branch 可保留鎖定 baseline，但不會
+當成可發布成果。失敗會留下 Actions artifact 與 `automation` Issue。
+
+以下指令只用於手動重現：
 
 ```console
 dsw-locale validate-config translation-config.yml
@@ -11,7 +19,7 @@ dsw-locale sync-upstream --config translation-config.yml --version v4.32 --outpu
 dsw-locale audit --root . --report-dir reports --fail-on placeholders --fail-on structure
 ```
 
-同步只會覆寫 `upstream/`。產生的內容與 `upstream.lock.yml` 要一起 review、commit；
+同步只會覆寫 `upstream/`。產生的內容與 `upstream.lock.yml` 要一起 commit；
 build、preview 與 publish 只使用這份已鎖定的 baseline。人工補翻放在：
 
 - `overrides/wizard.po` 或 `overrides/mail.po`
@@ -28,7 +36,8 @@ dsw-locale version-report \
 ```
 
 Weblate 未鎖定 project 應為 `active`，locked project 應為 `maintenance`；兩者都要有
-`sync/vX.Y` branch。只有 Weblate 不再列出的版本才改為 `retired`。
+`sync/vX.Y` branch。Weblate 不再列出的版本不自動刪除、archive 或改為
+`retired`；必須由維護者另外決定。
 
 ## Pull Request 驗證
 

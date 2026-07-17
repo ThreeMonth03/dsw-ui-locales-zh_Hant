@@ -1,0 +1,18 @@
+name: Maintain locale release lines
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+
+concurrency:
+  group: locale-maintenance
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  maintain:
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/maintain-locale.yml@main
