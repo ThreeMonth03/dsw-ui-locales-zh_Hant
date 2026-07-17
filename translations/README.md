@@ -4,17 +4,14 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-35 open · 16 completed
+25 open · 26 completed
 
-### Open (35)
+### Open (25)
 
 - [%s knowledge model](wizard/s-knowledge-model--d165e83c9286.translation.md)
 - [%s knowledge model editor](wizard/s-knowledge-model-editor--f51b9eab14d5.translation.md)
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
-- [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
-- [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
 - [Carefully review the list of what will be deleted before continuing.](wizard/carefully-review-the-list-of-what-will-be-delete--f3797eacf967.translation.md)
-- [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
 - [Empty label for choice](wizard/empty-label-for-choice--9b3e3d63ba3e.translation.md)
 - [Knowledge Model Editors:](wizard/knowledge-model-editors--0ba91ac3e8ea.translation.md)
 - [Knowledge Models:](wizard/knowledge-models--3cdf9b6dad28.translation.md)
@@ -24,17 +21,10 @@ Choose an open form and edit only its translation block.
 - [Plugin Integration ID](wizard/plugin-integration-id--221be1893f0e.translation.md)
 - [Plugin Integration Settings](wizard/plugin-integration-settings--ee6c747c3b60.translation.md)
 - [Plugin UUID](wizard/plugin-uuid--64a69c0c2cdd.translation.md)
-- [Projects:](wizard/projects--306678cb83f9.translation.md)
-- [public](wizard/public--8277817baa61.translation.md)
-- [Set private](wizard/set-private--84700ad0a866.translation.md)
-- [Set public](wizard/set-public--de5435fb3838.translation.md)
 - [The integration for this question is not configured properly.](wizard/the-integration-for-this-question-is-not-configu--67bc3ff65424.translation.md)
 - [There are no available plugins.](wizard/there-are-no-available-plugins--63dac82ce831.translation.md)
-- [This action cannot be undone.](wizard/this-action-cannot-be-undone--21371a25c09b.translation.md)
 - [This action will permanently delete:](wizard/this-action-will-permanently-delete--a3b8bacd240c.translation.md)
 - [Too many requests. Try again after %s seconds.](wizard/too-many-requests-try-again-after-s-seconds--2daeeb86a04e.translation.md)
-- [Type "%s" to confirm](wizard/type-s-to-confirm--c07ce71e4262.translation.md)
-- [Unable to delete the file.](wizard/unable-to-delete-the-file--f3fc94af0383.translation.md)
 - [Unable to get dependents of the Knowledge Model.](wizard/unable-to-get-dependents-of-the-knowledge-model--af5e05a36b12.translation.md)
 - [Unexpected answer UUID "%s" at: %s](wizard/unexpected-answer-uuid-s-at-s--8a4d5191c3e3.translation.md)
 - [Unexpected bad things will happen if you don't read this!](wizard/unexpected-bad-things-will-happen-if-you-don-t-r--f5c09e80c702.translation.md)
@@ -44,12 +34,15 @@ Choose an open form and edit only its translation block.
 - [You are about to permanently delete %s, including all dependent knowledge models, knowledge model...](wizard/you-are-about-to-permanently-delete-s-including--0f55da28e140.translation.md)
 - [You are about to permanently delete all versions of %s, including all dependent knowledge models,...](wizard/you-are-about-to-permanently-delete-all-versions--1bcec9e59ebe.translation.md)
 
-### Completed (16)
+### Completed (26)
 
+- [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
+- [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
 - [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
 - [Bold](wizard/bold--152c0fd0f284.translation.md)
 - [Bullet List](wizard/bullet-list--7e82c90e9dc7.translation.md)
 - [Code Block](wizard/code-block--abd5500aafd6.translation.md)
+- [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
 - [Heading 2](wizard/heading-2--af85303292f1.translation.md)
 - [Heading 3](wizard/heading-3--74f1fd7ddeb2.translation.md)
 - [Image](wizard/image--b272ff58fb15.translation.md)
@@ -59,8 +52,15 @@ Choose an open form and edit only its translation block.
 - [Markdown](wizard/markdown--93c9559a202f.translation.md)
 - [Ordered List](wizard/ordered-list--36c1d24412ec.translation.md)
 - [Plugin](wizard/plugin--96fd89c284da.translation.md)
+- [Projects:](wizard/projects--306678cb83f9.translation.md)
+- [public](wizard/public--8277817baa61.translation.md)
 - [Rich Text](wizard/rich-text--12f5fda7d964.translation.md)
+- [Set private](wizard/set-private--84700ad0a866.translation.md)
+- [Set public](wizard/set-public--de5435fb3838.translation.md)
 - [Strikethrough](wizard/strikethrough--3215d8559854.translation.md)
+- [This action cannot be undone.](wizard/this-action-cannot-be-undone--21371a25c09b.translation.md)
+- [Type "%s" to confirm](wizard/type-s-to-confirm--c07ce71e4262.translation.md)
+- [Unable to delete the file.](wizard/unable-to-delete-the-file--f3fc94af0383.translation.md)
 - [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 
 ## Mail
