@@ -4,5 +4,5 @@ contact_links:
     url: https://threemonth03.github.io/dsw-locale-tool/
     about: 第一次回報、想確認 CI 預覽畫面，或不確定文字屬於哪一層時請先閱讀。
   - name: DSW 官方 Weblate
-    url: https://localize.ds-wizard.org/projects/dsw-4-32/
+    url: https://localize.ds-wizard.org/projects/
     about: 官方 POT 已收錄且適合所有 DSW 使用者的譯文，仍應優先回饋上游。

@@ -12,6 +12,8 @@ body:
       options:
         - "4.32"
         - "4.31"
+        - "4.30"
+        - "4.29"
         - 不確定
     validations:
       required: true
@@ -50,4 +52,3 @@ body:
       options:
         - label: 我已確認這段英文來自 DSW UI，而不是 Knowledge Model 或 Document Template 內容。
           required: true
-

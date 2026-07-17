@@ -12,11 +12,24 @@ upstream:
   repository: https://github.com/ds-wizard/wizard-locales.git
   locale: zh_Hant
 
+weblate:
+  projects_url: https://localize.ds-wizard.org/api/projects/
+
 branches:
   control: main
   version_prefix: sync/
 
 versions:
+  v4.29:
+    upstream_ref: v4.29
+    locale_version: 4.29.0
+    recommended_app_version: 4.29.0
+    state: maintenance
+  v4.30:
+    upstream_ref: v4.30
+    locale_version: 4.30.0
+    recommended_app_version: 4.30.0
+    state: maintenance
   v4.31:
     upstream_ref: v4.31
     locale_version: 4.31.0
@@ -27,4 +40,3 @@ versions:
     locale_version: 4.32.0
     recommended_app_version: 4.32.0
     state: active
-

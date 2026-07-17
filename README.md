@@ -24,8 +24,8 @@
 - `extras/`：實際 UI 出現、但官方 POT 尚未收錄的字串。
 - `glossary/`：跨版本共用詞彙。
 
-`main` 只管理政策與版本設定；實際翻譯位於 `sync/v4.31`、`sync/v4.32` 等版本
-branch。完整規則見 [版本政策](docs/version-policy.md)。
+`main` 只管理政策與版本設定；Weblate 目前列出的 4.29–4.32 分別位於
+`sync/v4.29`–`sync/v4.32`。完整規則見 [版本政策](docs/version-policy.md)。
 
 ## 維護原則
 
