@@ -1,0 +1,42 @@
+name: 修正現有翻譯
+description: 回報不正確、不一致或不符合 depositar 用語的 DSW UI 翻譯
+title: "[修正] "
+labels:
+  - translation
+body:
+  - type: dropdown
+    id: version
+    attributes:
+      label: DSW 版本
+      options:
+        - "4.32"
+        - "4.31"
+        - 不確定
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: 畫面位置或網址
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: 目前顯示文字
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: 建議譯文與理由
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 英文原文、截圖或其他情境
+    validations:
+      required: true
+

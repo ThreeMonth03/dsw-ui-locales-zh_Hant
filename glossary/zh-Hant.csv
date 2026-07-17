@@ -1,0 +1,10 @@
+source,target,notes
+Project,專案,DSW project
+Questionnaire,問卷,使用者填寫的主要介面
+Knowledge Model,知識模型,縮寫 KM
+Document Template,文件範本,縮寫 document template 時仍用完整中文
+Document,文件,輸出成品
+Tenant,租戶,多租戶系統語境
+Submission,提交,名詞依畫面情境可用「提交內容」
+Preview,預覽,動詞與名詞同形
+

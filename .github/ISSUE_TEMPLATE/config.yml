@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: DSW 官方 Weblate
+    url: https://localize.ds-wizard.org/projects/dsw-4-32/
+    about: 官方 POT 已收錄且適合所有 DSW 使用者的譯文，仍應優先回饋上游。
+

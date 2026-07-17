@@ -1,0 +1,30 @@
+schema_version: 1
+
+locale:
+  organization_id: depositar
+  locale_id: zh_Hant
+  code: zh-hant
+  name: 繁體中文（depositar 補翻）
+  description: 以 DSW 官方繁體中文語系為基礎，補足 depositar 實際操作時遇到的 UI 漏翻。
+  license: CC-BY-4.0
+
+upstream:
+  repository: https://github.com/ds-wizard/wizard-locales.git
+  locale: zh_Hant
+
+branches:
+  control: main
+  version_prefix: sync/
+
+versions:
+  v4.31:
+    upstream_ref: v4.31
+    locale_version: 4.31.0
+    recommended_app_version: 4.31.0
+    state: maintenance
+  v4.32:
+    upstream_ref: v4.32
+    locale_version: 4.32.0
+    recommended_app_version: 4.32.0
+    state: active
+
