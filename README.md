@@ -7,7 +7,8 @@ with the official Weblate catalogs while keeping confirmed local UI translations
 
 1. Choose the branch matching your DSW version, such as `sync/v4.32`.
 2. Open `translations/README.md` on that branch.
-3. Choose an English source string and edit its `Translation (zh_Hant)` block in GitHub.
+3. Choose an English source from the **Open** section and edit its `Translation (zh_Hant)` block in
+   GitHub.
 4. Open a pull request to the same version branch.
 
 Each translation is a Markdown form. You do not need to edit PO files, write code, install tools, or

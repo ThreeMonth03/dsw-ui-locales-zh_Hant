@@ -2,6 +2,9 @@
 
 ## Fill a blank form
 
+Open `translations/README.md` on the matching version branch. Forms that still need work are listed
+first under **Open**; completed forms remain available below for corrections.
+
 A translation form looks like this:
 
 ````markdown

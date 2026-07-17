@@ -92,6 +92,7 @@ jobs:
     with:
       translation_repository: ${{ github.repository }}
       source_ref: ${{ github.event.pull_request.base.ref }}
+      base_sha: ${{ github.event.pull_request.base.sha }}
       source_sha: ${{ github.event.pull_request.merge_commit_sha }}
       source_pull_request: ${{ github.event.pull_request.html_url }}
     permissions:

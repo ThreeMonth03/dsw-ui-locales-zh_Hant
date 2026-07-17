@@ -21,7 +21,7 @@ version-policy
 
 ## Contribution path
 
-1. Open a blank translation form on the correct version branch.
+1. Open a form from the **Open** section on the correct version branch.
 2. Fill only the `Translation (zh_Hant)` block.
 3. Submit a pull request to the same branch.
 4. CI validates and packages the locale.
