@@ -14,6 +14,9 @@
 請貼上英文原文、出現位置與 DSW 版本；若能附畫面與建議譯文，會更容易重現。
 維護者會把內容放入正確版本並由工具檢查。
 
+完整的回報範例、CI 畫面預覽與成果確認方式見
+[DSW UI 繁體中文補翻指南](https://threemonth03.github.io/dsw-locale-tool/)。
+
 ## 內容如何分層
 
 - `upstream/`：從官方 `ds-wizard/wizard-locales` 同步，禁止人工編輯。
@@ -30,4 +33,3 @@ branch。完整規則見 [版本政策](docs/version-policy.md)。
 2. 本地只保存差異，不複製整份翻譯作為人工維護來源。
 3. `extras` 一旦進入官方 POT，便移到 `overrides` 或直接採用上游。
 4. production 只使用經過 audit 與官方 packager 打包的 artifact。
-
