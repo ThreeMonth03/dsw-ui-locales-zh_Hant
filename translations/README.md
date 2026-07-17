@@ -1,15 +1,18 @@
 # Translation forms
 
-Choose the DSW component, open a form, and edit only its translation block.
+Choose an open form and edit only its translation block.
 
-## Wizard (37)
+## Wizard
+
+34 open · 3 completed
+
+### Open (34)
 
 - [%s knowledge model](wizard/s-knowledge-model--d165e83c9286.translation.md)
 - [%s knowledge model editor](wizard/s-knowledge-model-editor--f51b9eab14d5.translation.md)
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
 - [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
 - [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
-- [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
 - [Carefully review the list of what will be deleted before continuing.](wizard/carefully-review-the-list-of-what-will-be-delete--f3797eacf967.translation.md)
 - [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
 - [Empty label for choice](wizard/empty-label-for-choice--9b3e3d63ba3e.translation.md)
@@ -17,7 +20,6 @@ Choose the DSW component, open a form, and edit only its translation block.
 - [Knowledge Models:](wizard/knowledge-models--3cdf9b6dad28.translation.md)
 - [Missing plugin.](wizard/missing-plugin--cd4e5bdc857d.translation.md)
 - [No plugin selected for plugin integration](wizard/no-plugin-selected-for-plugin-integration--64040cd9e752.translation.md)
-- [Plugin](wizard/plugin--96fd89c284da.translation.md)
 - [Plugin error.](wizard/plugin-error--78f876089c04.translation.md)
 - [Plugin Integration ID](wizard/plugin-integration-id--221be1893f0e.translation.md)
 - [Plugin Integration Settings](wizard/plugin-integration-settings--ee6c747c3b60.translation.md)
@@ -36,12 +38,21 @@ Choose the DSW component, open a form, and edit only its translation block.
 - [Unexpected answer UUID "%s" at: %s](wizard/unexpected-answer-uuid-s-at-s--8a4d5191c3e3.translation.md)
 - [Unexpected bad things will happen if you don't read this!](wizard/unexpected-bad-things-will-happen-if-you-don-t-r--f5c09e80c702.translation.md)
 - [Unexpected reply type at: %s](wizard/unexpected-reply-type-at-s--d6788dea27c8.translation.md)
-- [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 - [Used in item select questions:](wizard/used-in-item-select-questions--60540d33f661.translation.md)
 - [View 1 comment](wizard/view-1-comment--3cdb0bc6b96f.translation.md)
 - [You are about to permanently delete %s, including all dependent knowledge models, knowledge model...](wizard/you-are-about-to-permanently-delete-s-including--0f55da28e140.translation.md)
 - [You are about to permanently delete all versions of %s, including all dependent knowledge models,...](wizard/you-are-about-to-permanently-delete-all-versions--1bcec9e59ebe.translation.md)
 
-## Mail (0)
+### Completed (3)
 
-No local translation forms are needed.
+- [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
+- [Plugin](wizard/plugin--96fd89c284da.translation.md)
+- [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
+
+## Mail
+
+0 open · 0 completed
+
+### Open (0)
+
+No open forms.
