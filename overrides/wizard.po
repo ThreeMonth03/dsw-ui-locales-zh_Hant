@@ -1,0 +1,16 @@
+# Local depositar overrides for DSW 4.29.
+msgid ""
+msgstr ""
+"Project-Id-Version: depositar-dsw-ui:4.29.0\n"
+"Language: zh_Hant\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Upstream zh_Hant currently drops the interpolation placeholder.
+msgid "Assigned to %s"
+msgstr "已指派給 %s"
+
+#. Upstream zh_Hant hard-codes 100 MB instead of preserving the configured limit.
+msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
+msgstr "上傳的檔案不能大於 %s，但您可以設定較小的上限。"
