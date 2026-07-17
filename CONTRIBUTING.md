@@ -25,8 +25,11 @@
 請勿直接修改 `upstream/`；該目錄每次同步都會被工具覆寫。譯文必須保留英文原文
 中的 placeholder。若同一句英文依情境需要不同譯法，請在 PR 或 Issue 說明畫面位置。
 
+PR 會自動驗證變更範圍、gettext 結構、placeholder、locale build 與 package。
+`translation-config.yml` 只允許提高該版本的 `locale_version`；其他政策或 automation
+變更一律對 `main` 提出，不混入翻譯 PR。
+
 ## 授權
 
 送出翻譯即表示同意以本 repo 的 CC BY 4.0 條款提供該內容，讓它能與 DSW
 官方 locale 相容並在未來回饋上游。
-
