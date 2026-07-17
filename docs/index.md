@@ -1,15 +1,14 @@
-# DSW UI 繁體中文補翻
+# DSW UI Traditional Chinese translations
 
-這個 repo 專門補足 DSW 官方 Weblate 尚未翻譯、或 depositar 實際介面仍顯示英文的
-文字。一般翻譯者不需要使用 Git、編輯 PO，也不需要接觸工具 repo。
+This repository provides a simple translation queue for English text missing from the official DSW
+Traditional Chinese UI locale. Translation happens in Markdown files and can be completed entirely
+in GitHub's web interface.
 
-:::{admonition} 發現漏翻時，直接填 Issue
+:::{admonition} Begin with a version branch
 :class: tip
 
-- [回報英文漏翻](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new?template=missing-translation.yml)
-- [修正現有翻譯](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new?template=translation-correction.yml)
-
-請提供 DSW 版本、畫面位置、完整英文原文與截圖；建議譯文可以留空討論。
+Choose the `sync/vX.Y` branch matching the DSW screen you are translating, then open
+`translations/README.md` on that branch.
 :::
 
 ```{toctree}
@@ -18,28 +17,20 @@
 
 translator-guide
 version-policy
-maintainer-guide
 ```
 
-## 貢獻流程
+## Contribution path
 
-1. 翻譯者用 Issue 回報英文或不自然的譯文。
-2. 維護者判斷字串屬於官方翻譯的暫時補譯，或官方 POT 尚未收錄的 UI 文字。
-3. CI 檢查 gettext 結構、placeholder、locale build 與 package。
-4. 一次性 DSW preview 產生實際介面截圖，讓翻譯者直接確認結果。
-5. 確認後發布 immutable installer image；production 不需要 fork DSW frontend。
+1. Open a blank translation form on the correct version branch.
+2. Fill only the `Translation (zh_Hant)` block.
+3. Submit a pull request to the same branch.
+4. CI validates and packages the locale.
+5. A disposable DSW preview renders the result for review.
 
-完整說明見 {doc}`translator-guide`；preview 的畫面與判讀方式見
-[DSW Locale Tool 的 preview 文件](https://www.threemonth03.com/dsw-locale-tool/preview.html)。
+If no form matches the UI text, use the repository's
+[issue forms](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose). Include the
+DSW version, exact English text, screen location, and a screenshot.
 
-## 支援版本
-
-DSW 4.29、4.30、4.31、4.32 都接受回報與補翻。每個 minor version 使用獨立的
-`sync/vX.Y` branch，避免不同版本的來源字串彼此污染。Weblate 將舊 project 鎖定，
-不代表本 repo 停止維護該版本；詳見 {doc}`version-policy`。
-
-## 與官方翻譯的關係
-
-官方 `ds-wizard/wizard-locales` 是唯讀 baseline；本 repo 只保存仍有必要的差異。
-官方日後補上相同譯文時，本地 override 會被移除。適合所有 DSW 使用者的修正仍應
-回饋官方 Weblate，這裡不是另一套 Weblate。
+The official `ds-wizard/wizard-locales` repository remains the baseline. When official Weblate adds
+the same translation, automation removes the local form so this repository remains a focused work
+queue.
