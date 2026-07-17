@@ -14,8 +14,10 @@
 請貼上英文原文、出現位置與 DSW 版本；若能附畫面與建議譯文，會更容易重現。
 維護者會把內容放入正確版本並由工具檢查。
 
-完整的回報範例、CI 畫面預覽與成果確認方式見
-[DSW UI 繁體中文補翻指南](https://threemonth03.github.io/dsw-locale-tool/)。
+完整的回報方式與版本政策見
+[DSW UI 繁體中文補翻網站](https://www.threemonth03.com/dsw-ui-locales-zh_Hant/)；CI 畫面
+preview 與 production 部署細節另見
+[DSW Locale Tool 文件](https://www.threemonth03.com/dsw-locale-tool/)。
 
 ## 內容如何分層
 
