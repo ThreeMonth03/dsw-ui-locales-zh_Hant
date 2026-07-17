@@ -1,35 +1,36 @@
-# 貢獻方式
+# Contributing translations
 
-## 一般翻譯者
+You can contribute with GitHub's web editor. No programming or gettext knowledge is required.
 
-請使用 GitHub Issue 表單回報，不必修改任何程式碼或 PO 檔。一次 Issue 以一個
-畫面或一組相關字串為原則，並提供：
+## Edit a translation form
 
-1. DSW 版本。
-2. 畫面網址或操作路徑。
-3. 完整英文原文，包含標點與 `%s`、`{name}` 等 placeholder。
-4. 建議繁體中文譯文（可以留空讓其他人討論）。
-5. 螢幕截圖或重現步驟。
+1. Select the `sync/vX.Y` branch for the DSW version you are translating.
+2. Open `translations/README.md` and select a source string.
+3. Use the pencil icon to edit the file.
+4. Enter Traditional Chinese only between the fences under `Translation (zh_Hant)`.
+5. Propose the change as a pull request to the same `sync/vX.Y` branch.
 
-翻譯討論直接留在 Issue。維護者完成 preview 後會貼回結果，再關閉 Issue。
+Do not edit the English source, headings, hidden metadata, or fence markers. Preserve placeholders
+such as `%s`, `{name}`, and `${value}` exactly. Follow `glossary/zh-Hant.csv` when it defines a term.
 
-## 熟悉 gettext 的貢獻者
+CI checks the file structure and placeholders, builds the locale, and packages a preview artifact.
+An error message will identify the form that needs correction.
 
-可對對應的 `sync/v<major>.<minor>` branch 提 PR，但只修改：
+## Report a missing form or incorrect translation
 
-- `overrides/*.po`
-- `extras/*.po`
-- `glossary/zh-Hant.csv`
-- 說明文件
+Open an [issue](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose) and provide:
 
-請勿直接修改 `upstream/`；該目錄每次同步都會被工具覆寫。譯文必須保留英文原文
-中的 placeholder。若同一句英文依情境需要不同譯法，請在 PR 或 Issue 說明畫面位置。
+1. The DSW version.
+2. The page or navigation path.
+3. The complete English source, including punctuation and placeholders.
+4. A screenshot and reproduction steps.
+5. A suggested Traditional Chinese translation, if available.
 
-PR 會自動驗證變更範圍、gettext 結構、placeholder、locale build 與 package。
-`translation-config.yml` 只允許提高該版本的 `locale_version`；其他政策或 automation
-變更一律對 `main` 提出，不混入翻譯 PR。
+Questionnaire questions and choices belong to the Knowledge Model locale. Exported document text
+belongs to the Document Template. This repository covers DSW interface controls, navigation, and
+system messages.
 
-## 授權
+## License
 
-送出翻譯即表示同意以本 repo 的 CC BY 4.0 條款提供該內容，讓它能與 DSW
-官方 locale 相容並在未來回饋上游。
+By contributing translation content, you agree to publish it under the repository's CC BY 4.0
+license.
