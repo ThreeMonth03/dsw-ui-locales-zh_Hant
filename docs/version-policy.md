@@ -15,5 +15,7 @@ Automation adds a new version only after both its official Weblate project and `
 branch exist. It creates blank forms from that version's exact sources; translations are not copied
 from another version by similarity.
 
-When contributing, always target the same version branch where you found the form. If one UI issue
-affects several DSW releases, each branch receives an independently validated change.
+When contributing, always target the same version branch where you found the form. After a pull
+request is merged, automation fills matching blank forms on other maintained branches only when the
+component, source, plural source, context, and form kind are identical. Existing translations are
+never replaced.

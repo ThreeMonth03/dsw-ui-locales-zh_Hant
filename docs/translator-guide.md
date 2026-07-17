@@ -39,6 +39,6 @@ used because this locale has one gettext plural form.
 
 ## See the translation in DSW
 
-CI builds the pull request into a locale ZIP. A preview workflow can import that ZIP into a
-disposable DSW installation and upload screenshots plus a report of visible English UI text. See the
-[preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.
+CI builds every non-draft translation pull request and imports it into a disposable DSW
+installation. A comment appears when screenshots and the visible English-text report are ready. See
+the [preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.

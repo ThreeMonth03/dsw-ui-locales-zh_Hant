@@ -9,12 +9,13 @@ on:
       - synchronize
       - reopened
       - ready_for_review
+      - closed
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   validate:
+    if: github.event.action != 'closed'
     uses: ThreeMonth03/dsw-locale-tool/.github/workflows/validate-locale-pr.yml@main
     with:
       base_repository: ${{ github.repository }}
@@ -23,3 +24,75 @@ jobs:
       head_sha: ${{ github.event.pull_request.head.sha }}
       base_ref: ${{ github.event.pull_request.base.ref }}
       pull_request_number: ${{ github.event.pull_request.number }}
+    permissions:
+      contents: read
+
+  preview:
+    needs: validate
+    if: >-
+      github.event.pull_request.draft == false &&
+      needs.validate.outputs.translation_changed == 'true'
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/preview-locale.yml@main
+    with:
+      translation_repository: ${{ github.event.pull_request.head.repo.full_name }}
+      translation_ref: ${{ github.event.pull_request.head.sha }}
+      config_version: ${{ needs.validate.outputs.config_version }}
+      dsw_image_tag: ${{ needs.validate.outputs.dsw_image_tag }}
+    permissions:
+      contents: read
+
+  preview-comment:
+    needs:
+      - validate
+      - preview
+    if: >-
+      always() &&
+      needs.validate.result == 'success' &&
+      needs.validate.outputs.translation_changed == 'true' &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Update preview comment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PREVIEW_RESULT: ${{ needs.preview.result }}
+          PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          marker='<!-- dsw-locale-preview -->'
+          if [ "$PREVIEW_RESULT" = success ]; then
+            status='The DSW locale preview is ready.'
+          else
+            status='The DSW locale preview failed. Open the run to inspect the logs.'
+          fi
+          body=$(printf '%s\n\n### DSW locale preview\n\n%s\n\n[Open preview run and artifacts](%s)\n\nCommit: `%s`\n' \
+            "$marker" "$status" "$RUN_URL" "$HEAD_SHA")
+          comment_id=$(gh api \
+            "repos/$GITHUB_REPOSITORY/issues/$PULL_REQUEST_NUMBER/comments?per_page=100" \
+            | jq --raw-output --arg marker "$marker" \
+              '[.[] | select(.body | contains($marker))][0].id // empty')
+          if [ -n "$comment_id" ]; then
+            gh api \
+              --method PATCH \
+              "repos/$GITHUB_REPOSITORY/issues/comments/$comment_id" \
+              --field body="$body"
+          else
+            gh api \
+              --method POST \
+              "repos/$GITHUB_REPOSITORY/issues/$PULL_REQUEST_NUMBER/comments" \
+              --field body="$body"
+          fi
+
+  propagate:
+    if: github.event.action == 'closed' && github.event.pull_request.merged == true
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/propagate-locale.yml@main
+    with:
+      translation_repository: ${{ github.repository }}
+      source_ref: ${{ github.event.pull_request.base.ref }}
+      source_sha: ${{ github.event.pull_request.merge_commit_sha }}
+      source_pull_request: ${{ github.event.pull_request.html_url }}
+    permissions:
+      contents: write
