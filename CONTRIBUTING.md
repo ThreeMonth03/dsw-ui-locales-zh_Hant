@@ -5,7 +5,7 @@ You can contribute with GitHub's web editor. No programming or gettext knowledge
 ## Edit a translation form
 
 1. Select the `sync/vX.Y` branch for the DSW version you are translating.
-2. Open `translations/README.md` and select a source string.
+2. Open `translations/README.md` and select a source string from the **Open** section.
 3. Use the pencil icon to edit the file.
 4. Enter Traditional Chinese only between the fences under `Translation (zh_Hant)`.
 5. Propose the change as a pull request to the same `sync/vX.Y` branch.
@@ -16,6 +16,7 @@ such as `%s`, `{name}`, and `${value}` exactly. Follow `glossary/zh-Hant.csv` wh
 CI checks the file structure and placeholders, builds the locale, and renders non-draft pull
 requests in a disposable DSW installation. A pull-request comment links to the screenshots and
 visible English-text report. An error message will identify any form that needs correction.
+Generated indexes and immutable locale release versions are updated automatically after merge.
 
 ## Report a missing form or incorrect translation
 

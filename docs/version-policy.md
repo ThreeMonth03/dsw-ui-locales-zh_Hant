@@ -18,4 +18,5 @@ from another version by similarity.
 When contributing, always target the same version branch where you found the form. After a pull
 request is merged, automation fills matching blank forms on other maintained branches only when the
 component, source, plural source, context, and form kind are identical. Existing translations are
-never replaced.
+never replaced. Automation also advances the immutable locale package version on every branch whose
+effective translation content changed.
