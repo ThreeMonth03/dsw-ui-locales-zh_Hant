@@ -11,5 +11,5 @@ Delete %s
 
 ## Translation (zh_Hant)
 ~~~text
-
+刪除 %s
 ~~~
