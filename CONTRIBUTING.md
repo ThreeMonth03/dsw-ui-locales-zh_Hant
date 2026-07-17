@@ -13,8 +13,9 @@ You can contribute with GitHub's web editor. No programming or gettext knowledge
 Do not edit the English source, headings, hidden metadata, or fence markers. Preserve placeholders
 such as `%s`, `{name}`, and `${value}` exactly. Follow `glossary/zh-Hant.csv` when it defines a term.
 
-CI checks the file structure and placeholders, builds the locale, and packages a preview artifact.
-An error message will identify the form that needs correction.
+CI checks the file structure and placeholders, builds the locale, and renders non-draft pull
+requests in a disposable DSW installation. A pull-request comment links to the screenshots and
+visible English-text report. An error message will identify any form that needs correction.
 
 ## Report a missing form or incorrect translation
 
