@@ -22,7 +22,7 @@ branches:
 versions:
   v4.29:
     upstream_ref: v4.29
-    locale_version: 4.29.0
+    locale_version: 4.29.1
     recommended_app_version: 4.29.0
     state: maintenance
   v4.30:

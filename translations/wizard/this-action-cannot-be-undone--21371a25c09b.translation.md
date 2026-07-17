@@ -11,5 +11,5 @@ This action cannot be undone.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此動作無法復原。
 ~~~
