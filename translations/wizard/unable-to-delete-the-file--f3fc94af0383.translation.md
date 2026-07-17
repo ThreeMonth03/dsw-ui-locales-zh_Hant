@@ -11,5 +11,5 @@ Unable to delete the file.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法刪除檔案。
 ~~~

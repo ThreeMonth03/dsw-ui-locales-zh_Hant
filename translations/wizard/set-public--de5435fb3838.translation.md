@@ -11,5 +11,5 @@ Set public
 
 ## Translation (zh_Hant)
 ~~~text
-
+設為公開
 ~~~
