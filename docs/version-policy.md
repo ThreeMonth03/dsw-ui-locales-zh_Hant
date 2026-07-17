@@ -19,6 +19,10 @@
 - `maintenance`：Weblate project locked；仍可同步、補翻、preview 與發版。
 - `retired`：Weblate 已不再列出該 project；凍結但保留歷史 branch 與 artifacts。
 
+目前 4.29、4.30、4.31、4.32 全部接受翻譯貢獻，任何一條都不得 archive 或設為
+`retired`。只要版本仍列在官方 Weblate Projects，version-alignment CI 就會拒絕本地把它
+標成 `retired`；即使 Weblate project locked，也仍維持完整的本地翻譯流程。
+
 狀態與 package version 由 `translation-config.yml` 管理。locale 內容有任何 release
 變更時必須增加 `locale_version`，避免 DSW 誤認為仍是同一份 package。
 

@@ -27,6 +27,9 @@
 `main` 只管理政策與版本設定；Weblate 目前列出的 4.29–4.32 分別位於
 `sync/v4.29`–`sync/v4.32`。完整規則見 [版本政策](docs/version-policy.md)。
 
+目前四條版本線都開放回報、補翻、同步、preview 與發版。4.29–4.31 的
+`maintenance` 只對應 Weblate locked 狀態，不代表 archived，也不會停止接受翻譯。
+
 ## 維護原則
 
 1. 優先使用 Weblate 的官方翻譯。
