@@ -11,5 +11,5 @@ Set private
 
 ## Translation (zh_Hant)
 ~~~text
-
+設為不公開
 ~~~

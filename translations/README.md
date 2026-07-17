@@ -4,9 +4,9 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-101 open · 16 completed
+91 open · 26 completed
 
-### Open (101)
+### Open (91)
 
 - [days](wizard/days--3ff4806cad68.translation.md)
 - [%s knowledge model](wizard/s-knowledge-model--d165e83c9286.translation.md)
@@ -14,10 +14,8 @@ Choose an open form and edit only its translation block.
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
 - [Account](wizard/account--4fb8cd8ebb40.translation.md)
 - [Account disconnected successfully.](wizard/account-disconnected-successfully--c6b7be8bf029.translation.md)
-- [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
 - [Added](wizard/added--4a1a1f472d6a.translation.md)
 - [Advanced configuration](wizard/advanced-configuration--cd1622219bd8.translation.md)
-- [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
 - [Allow users to register using this OpenID provider.](wizard/allow-users-to-register-using-this-openid-provid--e465ebb648fc.translation.md)
 - [Allows the application to access the basic profile information (name, username, profile picture,...](wizard/allows-the-application-to-access-the-basic-profi--11c38707f0fd.translation.md)
 - [Allows the application to access your email address and whether it has been verified.](wizard/allows-the-application-to-access-your-email-addr--6059a93ca5af.translation.md)
@@ -35,7 +33,6 @@ Choose an open form and edit only its translation block.
 - [Connected Accounts](wizard/connected-accounts--949c17132160.translation.md)
 - [Create OpenID Config](wizard/create-openid-config--ef9d8ec8f76a.translation.md)
 - [Custom](wizard/custom--c799ce41ffd7.translation.md)
-- [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
 - [Delete OpenID](wizard/delete-openid--a9acbd950d12.translation.md)
 - [Directory (tenant) ID](wizard/directory-tenant-id--1bd8581c636a.translation.md)
 - [Disconnect](wizard/disconnect--69c5373c3eee.translation.md)
@@ -71,8 +68,6 @@ Choose an open form and edit only its translation block.
 - [Plugin Integration ID](wizard/plugin-integration-id--221be1893f0e.translation.md)
 - [Plugin Integration Settings](wizard/plugin-integration-settings--ee6c747c3b60.translation.md)
 - [Plugin UUID](wizard/plugin-uuid--64a69c0c2cdd.translation.md)
-- [Projects:](wizard/projects--306678cb83f9.translation.md)
-- [public](wizard/public--8277817baa61.translation.md)
 - [Redirect URI](wizard/redirect-uri--f0f11490df03.translation.md)
 - [Registration enabled](wizard/registration-enabled--90f026f48721.translation.md)
 - [Registration of new accounts via this service is disabled.](wizard/registration-of-new-accounts-via-this-service-is--fb38b1cc7a52.translation.md)
@@ -81,19 +76,14 @@ Choose an open form and edit only its translation block.
 - [Select Knowledge Models](wizard/select-knowledge-models--b2e62ceb456b.translation.md)
 - [Service](wizard/service--581e347598fe.translation.md)
 - [Session Expiration](wizard/session-expiration--4146d5835d68.translation.md)
-- [Set private](wizard/set-private--84700ad0a866.translation.md)
-- [Set public](wizard/set-public--de5435fb3838.translation.md)
 - [Sign up was successful](wizard/sign-up-was-successful--c5a3e6c919ef.translation.md)
 - [The integration for this question is not configured properly.](wizard/the-integration-for-this-question-is-not-configu--67bc3ff65424.translation.md)
 - [The link has expired.](wizard/the-link-has-expired--160629de4749.translation.md)
 - [There are no available plugins.](wizard/there-are-no-available-plugins--63dac82ce831.translation.md)
 - [There are no OpenID configurations.](wizard/there-are-no-openid-configurations--86a8e2b17af3.translation.md)
 - [This account is already linked to a different user.](wizard/this-account-is-already-linked-to-a-different-us--abc7fd3da329.translation.md)
-- [This action cannot be undone.](wizard/this-action-cannot-be-undone--21371a25c09b.translation.md)
 - [This action will permanently delete:](wizard/this-action-will-permanently-delete--a3b8bacd240c.translation.md)
 - [Too many requests. Try again after %s seconds.](wizard/too-many-requests-try-again-after-s-seconds--2daeeb86a04e.translation.md)
-- [Type "%s" to confirm](wizard/type-s-to-confirm--c07ce71e4262.translation.md)
-- [Unable to delete the file.](wizard/unable-to-delete-the-file--f3fc94af0383.translation.md)
 - [Unable to get dependents of the Knowledge Model.](wizard/unable-to-get-dependents-of-the-knowledge-model--af5e05a36b12.translation.md)
 - [Unable to get OpenID config](wizard/unable-to-get-openid-config--8aa98f5b9a74.translation.md)
 - [Unable to get OpenID configs.](wizard/unable-to-get-openid-configs--9d6cacdd8919.translation.md)
@@ -110,12 +100,15 @@ Choose an open form and edit only its translation block.
 - [You have not connected any external accounts.](wizard/you-have-not-connected-any-external-accounts--b0a968d3b024.translation.md)
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 
-### Completed (16)
+### Completed (26)
 
+- [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
+- [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
 - [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
 - [Bold](wizard/bold--152c0fd0f284.translation.md)
 - [Bullet List](wizard/bullet-list--7e82c90e9dc7.translation.md)
 - [Code Block](wizard/code-block--abd5500aafd6.translation.md)
+- [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
 - [Heading 2](wizard/heading-2--af85303292f1.translation.md)
 - [Heading 3](wizard/heading-3--74f1fd7ddeb2.translation.md)
 - [Image](wizard/image--b272ff58fb15.translation.md)
@@ -125,8 +118,15 @@ Choose an open form and edit only its translation block.
 - [Markdown](wizard/markdown--93c9559a202f.translation.md)
 - [Ordered List](wizard/ordered-list--36c1d24412ec.translation.md)
 - [Plugin](wizard/plugin--96fd89c284da.translation.md)
+- [Projects:](wizard/projects--306678cb83f9.translation.md)
+- [public](wizard/public--8277817baa61.translation.md)
 - [Rich Text](wizard/rich-text--12f5fda7d964.translation.md)
+- [Set private](wizard/set-private--84700ad0a866.translation.md)
+- [Set public](wizard/set-public--de5435fb3838.translation.md)
 - [Strikethrough](wizard/strikethrough--3215d8559854.translation.md)
+- [This action cannot be undone.](wizard/this-action-cannot-be-undone--21371a25c09b.translation.md)
+- [Type "%s" to confirm](wizard/type-s-to-confirm--c07ce71e4262.translation.md)
+- [Unable to delete the file.](wizard/unable-to-delete-the-file--f3fc94af0383.translation.md)
 - [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 
 ## Mail
