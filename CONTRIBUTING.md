@@ -18,8 +18,9 @@ requests in a disposable DSW installation. A pull-request comment links to the s
 visible English-text report. An error message will identify any form that needs correction.
 Generated indexes and immutable locale release versions are updated automatically after merge.
 
-Add the `live-preview` label when you need to navigate the translated interface in a browser. CI
-will add a temporary read-only DSW link to the pull request; no local setup is required.
+When you need to navigate the translated interface in a browser, ask a maintainer to add the
+`live-preview` label. Contributors with label permission may add it directly. CI will add a
+temporary read-only DSW link to the pull request; no local setup is required.
 
 ## Report a missing form or incorrect translation
 

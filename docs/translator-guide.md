@@ -48,10 +48,11 @@ The same comment links to the screenshots and visible English-text report when t
 **Render DSW preview** check finishes. See the
 [preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.
 
-For an interactive review, add the `live-preview` label to the pull request. A **DSW translation
-live preview** comment will receive a temporary HTTPS link after the isolated DSW is ready. Open the
-link, sign in with the account shown on its landing page, and use the listed review pages. The site
-contains sample data, and actions that would change DSW data are blocked.
+For an interactive review, ask a maintainer to add the `live-preview` label to the pull request.
+Contributors with label permission may add it directly. A **DSW translation live preview** comment
+will receive a temporary HTTPS link after the isolated DSW is ready. Open the link, sign in with the
+account shown on its landing page, and use the listed review pages. The site contains sample data,
+and actions that would change DSW data are blocked.
 
 The live preview ends after 30 minutes without browser activity and always ends after three hours.
 A new translation commit replaces the current preview with one built from the new commit. Remove
