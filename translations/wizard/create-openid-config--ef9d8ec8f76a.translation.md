@@ -11,5 +11,5 @@ Create OpenID Config
 
 ## Translation (zh_Hant)
 ~~~text
-
+建立 OpenID 設定
 ~~~
