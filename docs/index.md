@@ -25,7 +25,8 @@ version-policy
 2. Fill only the `Translation (zh_Hant)` block.
 3. Submit a pull request to the same branch.
 4. CI validates and packages the locale.
-5. A disposable DSW preview renders the result for review.
+5. Screenshot artifacts render the result, and the optional `live-preview` label launches a
+   temporary browsable DSW.
 
 If no form matches the UI text, use the repository's
 [issue forms](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose). Include the
