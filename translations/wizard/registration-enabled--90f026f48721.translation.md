@@ -11,5 +11,5 @@ Registration enabled
 
 ## Translation (zh_Hant)
 ~~~text
-
+啟用註冊
 ~~~
