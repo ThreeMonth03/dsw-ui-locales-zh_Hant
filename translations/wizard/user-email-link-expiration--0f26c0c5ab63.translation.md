@@ -11,5 +11,5 @@ User Email Link Expiration
 
 ## Translation (zh_Hant)
 ~~~text
-
+使用者電子郵件連結到期時間
 ~~~

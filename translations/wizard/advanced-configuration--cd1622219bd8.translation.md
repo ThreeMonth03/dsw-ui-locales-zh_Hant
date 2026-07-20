@@ -11,5 +11,5 @@ Advanced configuration
 
 ## Translation (zh_Hant)
 ~~~text
-
+進階設定
 ~~~

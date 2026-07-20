@@ -11,5 +11,5 @@ Client Secret Value
 
 ## Translation (zh_Hant)
 ~~~text
-
+用戶端密鑰值
 ~~~
