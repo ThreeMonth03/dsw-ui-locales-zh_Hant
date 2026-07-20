@@ -11,5 +11,5 @@ Account
 
 ## Translation (zh_Hant)
 ~~~text
-
+帳號
 ~~~
