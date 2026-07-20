@@ -19,7 +19,7 @@ branches:
 versions:
   v4.31:
     upstream_ref: v4.31
-    locale_version: 4.31.3
+    locale_version: 4.31.4
     recommended_app_version: 4.31.0
     state: maintenance
   v4.32:
