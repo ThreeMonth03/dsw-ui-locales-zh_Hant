@@ -4,17 +4,15 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-69 open · 50 completed
+67 open · 53 completed
 
-### Open (69)
+### Open (67)
 
 - [%s knowledge model](wizard/s-knowledge-model--d165e83c9286.translation.md)
 - [%s knowledge model editor](wizard/s-knowledge-model-editor--f51b9eab14d5.translation.md)
 - [Account](wizard/account--4fb8cd8ebb40.translation.md)
 - [Account disconnected successfully.](wizard/account-disconnected-successfully--c6b7be8bf029.translation.md)
 - [Added](wizard/added--4a1a1f472d6a.translation.md)
-- [Allows the application to access the basic profile information (name, username, profile picture,...](wizard/allows-the-application-to-access-the-basic-profi--11c38707f0fd.translation.md)
-- [Allows the application to access your email address and whether it has been verified.](wizard/allows-the-application-to-access-your-email-addr--6059a93ca5af.translation.md)
 - [Are you sure you want to disconnect %s account?](wizard/are-you-sure-you-want-to-disconnect-s-account--95d76aa83b1a.translation.md)
 - [Changed](wizard/changed--31a66db96e5e.translation.md)
 - [Check your email for the activation link.](wizard/check-your-email-for-the-activation-link--137c3936df37.translation.md)
@@ -78,7 +76,7 @@ Choose an open form and edit only its translation block.
 - [You have not connected any external accounts.](wizard/you-have-not-connected-any-external-accounts--b0a968d3b024.translation.md)
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 
-### Completed (50)
+### Completed (53)
 
 - [days](wizard/days--3ff4806cad68.translation.md)
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
@@ -86,6 +84,8 @@ Choose an open form and edit only its translation block.
 - [Advanced configuration](wizard/advanced-configuration--cd1622219bd8.translation.md)
 - [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
 - [Allow users to register using this OpenID provider.](wizard/allow-users-to-register-using-this-openid-provid--e465ebb648fc.translation.md)
+- [Allows the application to access the basic profile information (name, username, profile picture,...](wizard/allows-the-application-to-access-the-basic-profi--11c38707f0fd.translation.md)
+- [Allows the application to access your email address and whether it has been verified.](wizard/allows-the-application-to-access-your-email-addr--6059a93ca5af.translation.md)
 - [Application (client) ID](wizard/application-client-id--d25cd01b90e1.translation.md)
 - [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
 - [Bold](wizard/bold--152c0fd0f284.translation.md)
@@ -118,6 +118,7 @@ Choose an open form and edit only its translation block.
 - [public](wizard/public--8277817baa61.translation.md)
 - [Registration enabled](wizard/registration-enabled--90f026f48721.translation.md)
 - [Rich Text](wizard/rich-text--12f5fda7d964.translation.md)
+- [Scopes](wizard/scopes--77e70d170202.translation.md) (runtime-only)
 - [Session Expiration](wizard/session-expiration--4146d5835d68.translation.md)
 - [Set private](wizard/set-private--84700ad0a866.translation.md)
 - [Set public](wizard/set-public--de5435fb3838.translation.md)
