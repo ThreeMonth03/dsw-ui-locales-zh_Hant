@@ -12,7 +12,9 @@ with the official Weblate catalogs while keeping confirmed local UI translations
 4. Open a pull request to the same version branch.
 
 Each translation is a Markdown form. You do not need to edit PO files, write code, install tools, or
-run a local Weblate server. CI validates the form, builds the locale, and provides a real DSW preview.
+run a local Weblate server. CI validates the form, builds the locale, and provides screenshot
+artifacts. Add the `live-preview` label to a pull request when you want a temporary browsable,
+read-only DSW.
 
 If the English text has no form, use an
 [issue template](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose) with the

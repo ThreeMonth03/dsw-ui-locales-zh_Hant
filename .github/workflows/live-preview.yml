@@ -1,0 +1,64 @@
+name: Host live DSW translation preview
+
+on:
+  pull_request_target:
+    branches:
+      - sync/v*
+    types:
+      - labeled
+      - unlabeled
+      - synchronize
+      - reopened
+      - ready_for_review
+      - converted_to_draft
+      - closed
+
+permissions: {}
+
+concurrency:
+  group: >-
+    ${{
+      (github.event.action != 'labeled' && github.event.action != 'unlabeled' ||
+      github.event.label.name == 'live-preview') &&
+      format('live-preview-pr-{0}', github.event.pull_request.number) ||
+      format('live-preview-event-{0}', github.run_id)
+    }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate translation
+    if: >-
+      github.event.action != 'closed' &&
+      github.event.pull_request.draft == false &&
+      contains(github.event.pull_request.labels.*.name, 'live-preview') &&
+      ((github.event.action != 'labeled' && github.event.action != 'unlabeled') ||
+      github.event.label.name == 'live-preview')
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/validate-locale-pr.yml@main
+    with:
+      base_repository: ${{ github.repository }}
+      base_sha: ${{ github.event.pull_request.base.sha }}
+      head_repository: ${{ github.event.pull_request.head.repo.full_name }}
+      head_sha: ${{ github.event.pull_request.head.sha }}
+      base_ref: ${{ github.event.pull_request.base.ref }}
+      pull_request_number: ${{ github.event.pull_request.number }}
+    permissions:
+      contents: read
+
+  review:
+    name: Live read-only DSW preview
+    needs: validate
+    if: needs.validate.outputs.translation_changed == 'true'
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/live-preview.yml@main
+    with:
+      translation_repository: ${{ github.event.pull_request.head.repo.full_name }}
+      pull_request_repository: ${{ github.repository }}
+      translation_ref: ${{ github.event.pull_request.head.sha }}
+      translation_label: ${{ github.event.pull_request.head.ref }} → ${{ github.event.pull_request.base.ref }}
+      config_version: ${{ needs.validate.outputs.config_version }}
+      dsw_image_tag: ${{ needs.validate.outputs.dsw_image_tag }}
+      pull_request_number: ${{ github.event.pull_request.number }}
+      pull_request_url: ${{ github.event.pull_request.html_url }}
+    permissions:
+      contents: read
+      pull-requests: write
