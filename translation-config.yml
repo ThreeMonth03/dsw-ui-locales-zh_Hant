@@ -25,18 +25,50 @@ versions:
     locale_version: 4.29.0
     recommended_app_version: 4.29.0
     state: maintenance
+    preview:
+      knowledge_model:
+        url: https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/releases/download/preview-km-dsw-root-zh-hant-v2.7.0.1/dsw-root-zh-hant-v2.7.0.1.km
+        sha256: 5e9ad6c3ac91952ae88e8fd0fe7076854333961cc8c06b15dcc7741521445d69
+      document_template:
+        url: https://github.com/depositar/science-europe-template-zh_Hant/releases/download/science-europe-zh-hant-v1.30.1/dsw-science-europe-zh-hant-v1.30.1.zip
+        sha256: 02c6b5c0904b0300f5d05ba80e67c9416341da4dda3b8169d901d9cbcc83a2db
+      document_format_uuid: a9293d08-59a4-4e6b-ae62-7a6a570b031c
   v4.30:
     upstream_ref: v4.30
     locale_version: 4.30.0
     recommended_app_version: 4.30.0
     state: maintenance
+    preview:
+      knowledge_model:
+        url: https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/releases/download/preview-km-dsw-root-zh-hant-v2.7.0.1/dsw-root-zh-hant-v2.7.0.1.km
+        sha256: 5e9ad6c3ac91952ae88e8fd0fe7076854333961cc8c06b15dcc7741521445d69
+      document_template:
+        url: https://github.com/depositar/science-europe-template-zh_Hant/releases/download/science-europe-zh-hant-v1.30.1/dsw-science-europe-zh-hant-v1.30.1.zip
+        sha256: 02c6b5c0904b0300f5d05ba80e67c9416341da4dda3b8169d901d9cbcc83a2db
+      document_format_uuid: a9293d08-59a4-4e6b-ae62-7a6a570b031c
   v4.31:
     upstream_ref: v4.31
     locale_version: 4.31.0
     recommended_app_version: 4.31.0
     state: maintenance
+    preview:
+      knowledge_model:
+        url: https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/releases/download/preview-km-dsw-root-zh-hant-v2.7.0.1/dsw-root-zh-hant-v2.7.0.1.km
+        sha256: 5e9ad6c3ac91952ae88e8fd0fe7076854333961cc8c06b15dcc7741521445d69
+      document_template:
+        url: https://github.com/depositar/science-europe-template-zh_Hant/releases/download/science-europe-zh-hant-v1.30.1/dsw-science-europe-zh-hant-v1.30.1.zip
+        sha256: 02c6b5c0904b0300f5d05ba80e67c9416341da4dda3b8169d901d9cbcc83a2db
+      document_format_uuid: a9293d08-59a4-4e6b-ae62-7a6a570b031c
   v4.32:
     upstream_ref: v4.32
     locale_version: 4.32.0
     recommended_app_version: 4.32.0
     state: active
+    preview:
+      knowledge_model:
+        url: https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/releases/download/preview-km-dsw-root-zh-hant-v2.7.0.1/dsw-root-zh-hant-v2.7.0.1.km
+        sha256: 5e9ad6c3ac91952ae88e8fd0fe7076854333961cc8c06b15dcc7741521445d69
+      document_template:
+        url: https://github.com/depositar/science-europe-template-zh_Hant/releases/download/science-europe-zh-hant-v1.30.1/dsw-science-europe-zh-hant-v1.30.1.zip
+        sha256: 02c6b5c0904b0300f5d05ba80e67c9416341da4dda3b8169d901d9cbcc83a2db
+      document_format_uuid: a9293d08-59a4-4e6b-ae62-7a6a570b031c

@@ -74,6 +74,8 @@ jobs:
     with:
       translation_repository: ${{ github.event.pull_request.head.repo.full_name }}
       translation_ref: ${{ github.event.pull_request.head.sha }}
+      translation_control_repository: ${{ github.repository }}
+      translation_control_ref: main
       config_version: ${{ needs.validate.outputs.config_version }}
       dsw_image_tag: ${{ needs.validate.outputs.dsw_image_tag }}
     permissions:
