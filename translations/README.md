@@ -4,7 +4,7 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-67 open · 52 completed
+67 open · 53 completed
 
 ### Open (67)
 
@@ -76,7 +76,7 @@ Choose an open form and edit only its translation block.
 - [You have not connected any external accounts.](wizard/you-have-not-connected-any-external-accounts--b0a968d3b024.translation.md)
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 
-### Completed (52)
+### Completed (53)
 
 - [days](wizard/days--3ff4806cad68.translation.md)
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
@@ -118,6 +118,7 @@ Choose an open form and edit only its translation block.
 - [public](wizard/public--8277817baa61.translation.md)
 - [Registration enabled](wizard/registration-enabled--90f026f48721.translation.md)
 - [Rich Text](wizard/rich-text--12f5fda7d964.translation.md)
+- [Scopes](wizard/scopes--77e70d170202.translation.md) (runtime-only)
 - [Session Expiration](wizard/session-expiration--4146d5835d68.translation.md)
 - [Set private](wizard/set-private--84700ad0a866.translation.md)
 - [Set public](wizard/set-public--de5435fb3838.translation.md)
