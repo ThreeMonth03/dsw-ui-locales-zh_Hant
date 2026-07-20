@@ -5,7 +5,7 @@ with the official Weblate catalogs while keeping confirmed local UI translations
 
 ## Start translating
 
-1. Choose the branch matching your DSW version, such as `sync/v4.32`.
+1. Choose the `sync/vX.Y` branch matching your DSW minor release.
 2. Open `translations/README.md` on that branch.
 3. Choose an English source from the **Open** section and edit its `Translation (zh_Hant)` block in
    GitHub.
@@ -23,8 +23,9 @@ Read the [contributor guide](CONTRIBUTING.md) or the
 
 ## Version branches
 
-One `sync/vX.Y` branch is maintained for each supported DSW minor release. Versions 4.29 through
-4.32 remain open for translation and are not archived. New official Weblate release lines are added
-automatically when their source catalogs become available.
+One `sync/vX.Y` branch is maintained for each release marked `active` or `maintenance` in
+[`translation-config.yml`](translation-config.yml). These branches remain open for translation and
+are not archived. New official Weblate release lines are added automatically when their source
+catalogs become available.
 
 `main` contains shared policy and documentation. Translation forms live only on version branches.

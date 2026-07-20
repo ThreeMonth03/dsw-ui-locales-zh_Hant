@@ -43,5 +43,7 @@ used because this locale has one gettext plural form.
 ## See the translation in DSW
 
 CI builds every non-draft translation pull request and imports it into a disposable DSW
-installation. A comment appears when screenshots and the visible English-text report are ready. See
-the [preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.
+installation. After validation, a **DSW locale preview** comment shows that rendering has started.
+The same comment links to the screenshots and visible English-text report when the
+**Render DSW preview** check finishes. See the
+[preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.

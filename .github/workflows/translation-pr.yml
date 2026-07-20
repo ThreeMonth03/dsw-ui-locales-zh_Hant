@@ -1,4 +1,4 @@
-name: Validate translation pull request
+name: Validate and preview translation
 
 on:
   pull_request_target:
@@ -15,6 +15,7 @@ permissions: {}
 
 jobs:
   validate:
+    name: Validate translation
     if: github.event.action != 'closed'
     uses: ThreeMonth03/dsw-locale-tool/.github/workflows/validate-locale-pr.yml@main
     with:
@@ -27,7 +28,44 @@ jobs:
     permissions:
       contents: read
 
-  preview:
+  preview_status:
+    name: Announce DSW preview
+    needs: validate
+    if: >-
+      github.event.pull_request.draft == false &&
+      needs.validate.outputs.translation_changed == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Mark preview as rendering
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          marker='<!-- dsw-locale-preview -->'
+          body=$(printf '%s\n\n### DSW locale preview\n\nThe DSW locale preview is being rendered.\n\n[Open the active workflow run](%s)\n\nCommit: `%s`\n' \
+            "$marker" "$RUN_URL" "$HEAD_SHA")
+          comment_id=$(gh api \
+            "repos/$GITHUB_REPOSITORY/issues/$PULL_REQUEST_NUMBER/comments?per_page=100" \
+            | jq --raw-output --arg marker "$marker" \
+              '[.[] | select(.body | contains($marker))][0].id // empty')
+          if [ -n "$comment_id" ]; then
+            gh api \
+              --method PATCH \
+              "repos/$GITHUB_REPOSITORY/issues/comments/$comment_id" \
+              --field body="$body"
+          else
+            gh api \
+              --method POST \
+              "repos/$GITHUB_REPOSITORY/issues/$PULL_REQUEST_NUMBER/comments" \
+              --field body="$body"
+          fi
+
+  render_preview:
+    name: Render DSW preview
     needs: validate
     if: >-
       github.event.pull_request.draft == false &&
@@ -41,10 +79,12 @@ jobs:
     permissions:
       contents: read
 
-  preview-comment:
+  preview_result:
+    name: Publish DSW preview result
     needs:
       - validate
-      - preview
+      - preview_status
+      - render_preview
     if: >-
       always() &&
       needs.validate.result == 'success' &&
@@ -57,7 +97,7 @@ jobs:
       - name: Update preview comment
         env:
           GH_TOKEN: ${{ github.token }}
-          PREVIEW_RESULT: ${{ needs.preview.result }}
+          PREVIEW_RESULT: ${{ needs.render_preview.result }}
           PULL_REQUEST_NUMBER: ${{ github.event.pull_request.number }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}

@@ -8,8 +8,9 @@ official source catalogs and its own Markdown translation forms.
 | `main` | Shared documentation, glossary, issue forms, and version configuration |
 | `sync/vX.Y` | Translation work for one DSW minor release |
 
-Versions 4.29, 4.30, 4.31, and 4.32 all remain open for contributions. A locked official Weblate
-project is treated as a maintained release, not an archived one.
+Every release marked `active` or `maintenance` in `translation-config.yml` remains open for
+contributions. A locked official Weblate project is treated as a maintained release, not an
+archived one.
 
 Automation adds a new version only after both its official Weblate project and `wizard-locales`
 branch exist. It creates blank forms from that version's exact sources; translations are not copied

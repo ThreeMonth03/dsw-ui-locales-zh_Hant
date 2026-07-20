@@ -4,16 +4,12 @@ title: "[修正] "
 labels:
   - translation
 body:
-  - type: dropdown
+  - type: input
     id: version
     attributes:
-      label: DSW 版本
-      options:
-        - "4.32"
-        - "4.31"
-        - "4.30"
-        - "4.29"
-        - 不確定
+      label: DSW 版本或分支
+      description: 請填寫對應的 DSW minor version 或 `sync/vX.Y` 分支；不確定時可填「不確定」。
+      placeholder: 例如：sync/vX.Y
     validations:
       required: true
   - type: input
