@@ -24,6 +24,6 @@ versions:
     state: maintenance
   v4.32:
     upstream_ref: v4.32
-    locale_version: 4.32.2
+    locale_version: 4.32.3
     recommended_app_version: 4.32.0
     state: active
