@@ -47,6 +47,8 @@ installation. After validation, a **DSW locale preview** comment shows that rend
 The same comment links to the screenshots and visible English-text report when the
 **Render DSW preview** check finishes. See the
 [preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.
+The installation includes the maintained Traditional Chinese DepositAR Knowledge Model and Science
+Europe document template, so the questionnaire and document screens use real localized content.
 
 For an interactive review, ask a maintainer to add the `live-preview` label to the pull request.
 Contributors with label permission may add it directly. A **DSW translation live preview** comment
