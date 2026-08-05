@@ -1,5 +1,4 @@
 schema_version: 1
-
 locale:
   organization_id: depositar
   locale_id: zh_Hant
@@ -7,18 +6,14 @@ locale:
   name: 繁體中文（depositar 補翻）
   description: 以 DSW 官方繁體中文語系為基礎，補足 depositar 實際操作時遇到的 UI 漏翻。
   license: CC-BY-4.0
-
 upstream:
   repository: https://github.com/ds-wizard/wizard-locales.git
   locale: zh_Hant
-
 weblate:
   projects_url: https://localize.ds-wizard.org/api/projects/
-
 branches:
   control: main
   version_prefix: sync/
-
 versions:
   v4.29:
     upstream_ref: v4.29
@@ -63,7 +58,7 @@ versions:
     upstream_ref: v4.32
     locale_version: 4.32.0
     recommended_app_version: 4.32.0
-    state: active
+    state: maintenance
     preview:
       knowledge_model:
         url: https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/releases/download/preview-km-dsw-root-zh-hant-v2.7.0.1/dsw-root-zh-hant-v2.7.0.1.km
@@ -72,3 +67,8 @@ versions:
         url: https://github.com/depositar/science-europe-template-zh_Hant/releases/download/science-europe-zh-hant-v1.30.1/dsw-science-europe-zh-hant-v1.30.1.zip
         sha256: 02c6b5c0904b0300f5d05ba80e67c9416341da4dda3b8169d901d9cbcc83a2db
       document_format_uuid: a9293d08-59a4-4e6b-ae62-7a6a570b031c
+  v4.33:
+    upstream_ref: v4.33
+    locale_version: 4.33.0
+    recommended_app_version: 4.33.0
+    state: active
