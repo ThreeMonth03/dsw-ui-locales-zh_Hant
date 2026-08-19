@@ -1,6 +1,6 @@
 schema_version: 1
 repository: https://github.com/ds-wizard/wizard-locales.git
 ref: v4.31
-commit: 9b1cdcb3e90b6f33d409b56b956c4de7adf7b8c5
+commit: a32610205d8380b4b8b864bbfec5c4851682cee2
 locale: zh_Hant
 version: v4.31
