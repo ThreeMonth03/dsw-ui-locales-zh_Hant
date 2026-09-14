@@ -11,5 +11,5 @@ Custom
 
 ## Translation (zh_Hant)
 ~~~text
-
+自訂
 ~~~

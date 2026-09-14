@@ -11,5 +11,5 @@ Image
 
 ## Translation (zh_Hant)
 ~~~text
-
+圖片
 ~~~

@@ -11,5 +11,5 @@ Link
 
 ## Translation (zh_Hant)
 ~~~text
-
+連結
 ~~~

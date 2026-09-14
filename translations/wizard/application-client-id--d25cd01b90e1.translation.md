@@ -11,5 +11,5 @@ Application (client) ID
 
 ## Translation (zh_Hant)
 ~~~text
-
+應用程式（用戶端）ID
 ~~~

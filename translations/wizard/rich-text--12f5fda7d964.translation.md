@@ -11,5 +11,5 @@ Rich Text
 
 ## Translation (zh_Hant)
 ~~~text
-
+富文字
 ~~~

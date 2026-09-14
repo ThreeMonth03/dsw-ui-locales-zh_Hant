@@ -11,5 +11,5 @@ This action will permanently delete:
 
 ## Translation (zh_Hant)
 ~~~text
-
+此操作將永久刪除：
 ~~~

@@ -11,5 +11,5 @@ Bullet List
 
 ## Translation (zh_Hant)
 ~~~text
-
+項目符號清單
 ~~~

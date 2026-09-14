@@ -11,5 +11,5 @@ All warnings have been resolved!
 
 ## Translation (zh_Hant)
 ~~~text
-
+所有警告皆已解決！
 ~~~

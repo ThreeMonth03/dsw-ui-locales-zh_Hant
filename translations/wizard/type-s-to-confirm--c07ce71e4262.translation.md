@@ -11,5 +11,5 @@ Type "%s" to confirm
 
 ## Translation (zh_Hant)
 ~~~text
-
+輸入「%s」以確認
 ~~~

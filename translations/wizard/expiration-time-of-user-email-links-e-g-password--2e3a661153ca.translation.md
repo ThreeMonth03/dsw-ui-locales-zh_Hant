@@ -11,5 +11,5 @@ Expiration time of user email links (e.g., password reset, email confirmation) i
 
 ## Translation (zh_Hant)
 ~~~text
-
+使用者電子郵件連結（例如重設密碼、確認電子郵件）的到期時間（以**小時**為單位）。
 ~~~

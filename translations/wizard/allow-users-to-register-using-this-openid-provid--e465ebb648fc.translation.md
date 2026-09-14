@@ -11,5 +11,5 @@ Allow users to register using this OpenID provider.
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許使用者透過此 OpenID 提供者註冊。
 ~~~

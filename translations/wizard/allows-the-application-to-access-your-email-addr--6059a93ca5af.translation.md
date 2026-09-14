@@ -11,5 +11,5 @@ Allows the application to access your email address and whether it has been veri
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許應用程式存取您的電子郵件地址及其驗證狀態。
 ~~~

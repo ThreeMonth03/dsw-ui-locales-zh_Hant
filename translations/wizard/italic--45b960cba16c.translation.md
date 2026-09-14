@@ -11,5 +11,5 @@ Italic
 
 ## Translation (zh_Hant)
 ~~~text
-
+斜體
 ~~~
