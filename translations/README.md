@@ -4,7 +4,7 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-198 open · 0 completed
+198 open · 2 completed
 
 ### Open (198)
 
@@ -118,8 +118,8 @@ Choose an open form and edit only its translation block.
 - [Max Size](wizard/max-size--199d17ce9d0f.translation.md)
 - [Microsoft](wizard/microsoft--c1f3e6fab304.translation.md)
 - [Migrate](wizard/migrate--b3587cef1e2b.translation.md)
-- [Migrate Project](wizard/migrate-project--c143083ea4f5.translation.md)
 - [Migrate project](wizard/migrate-project--1ccdaaa524c3.translation.md)
+- [Migrate Project](wizard/migrate-project--c143083ea4f5.translation.md)
 - [Missing plugin.](wizard/missing-plugin--cd4e5bdc857d.translation.md)
 - [No Change](wizard/no-change--7b48ec2e976a.translation.md)
 - [No locales](wizard/no-locales--40d6d026d03a.translation.md)
@@ -207,9 +207,10 @@ Choose an open form and edit only its translation block.
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 - [Your sign-in attempt has expired or was started in a different window. Please try signing in again.](wizard/your-sign-in-attempt-has-expired-or-was-started--33595386d1f2.translation.md)
 
-### Completed (0)
+### Completed (2)
 
-No completed forms.
+- [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
+- [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 
 ## Mail
 
