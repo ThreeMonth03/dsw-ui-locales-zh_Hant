@@ -3,7 +3,13 @@
 ## Fill a blank form
 
 Open `translations/README.md` on the matching version branch. Forms that still need work are listed
-first under **Open**; completed forms remain available below for corrections.
+first under **Open**; completed forms remain below for reference, not rewriting.
+
+Fill only fields blank in the pull request's base. Review may refine those new
+translations in the same PR. Existing nonempty translations, including fuzzy
+official PO entries whose forms look blank, are protected by CI. Do not clear
+review flags. Report suspected errors separately for a maintainer's decision.
+Official Weblate sync is independent of this contribution policy.
 
 A translation form looks like this:
 
