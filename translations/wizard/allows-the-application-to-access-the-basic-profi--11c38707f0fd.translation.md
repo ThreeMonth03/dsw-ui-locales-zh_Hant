@@ -11,5 +11,5 @@ Allows the application to access the basic profile information (name, username, 
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許應用程式存取您的基本個人資料（姓名、使用者名稱、個人檔案圖片及其他個人資訊）。
 ~~~

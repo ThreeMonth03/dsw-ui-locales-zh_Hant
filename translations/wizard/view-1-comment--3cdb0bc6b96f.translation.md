@@ -16,5 +16,5 @@ View %s comments
 
 ## Translation (zh_Hant)
 ~~~text
-
+查看 %s 則留言
 ~~~

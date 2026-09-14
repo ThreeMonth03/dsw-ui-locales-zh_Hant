@@ -11,5 +11,5 @@ Strikethrough
 
 ## Translation (zh_Hant)
 ~~~text
-
+刪除線
 ~~~

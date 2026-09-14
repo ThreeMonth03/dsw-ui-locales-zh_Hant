@@ -11,5 +11,5 @@ Carefully review the list of what will be deleted before continuing.
 
 ## Translation (zh_Hant)
 ~~~text
-
+繼續前，請仔細確認將被刪除的項目。
 ~~~

@@ -11,5 +11,5 @@ There are no OpenID configurations.
 
 ## Translation (zh_Hant)
 ~~~text
-
+目前沒有任何 OpenID 設定。
 ~~~

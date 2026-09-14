@@ -11,5 +11,5 @@ Login as admin
 
 ## Translation (zh_Hant)
 ~~~text
-
+以管理員身分登入
 ~~~

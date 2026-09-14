@@ -11,5 +11,5 @@ Expiration time of the user session in **hours**. Changing this value does not a
 
 ## Translation (zh_Hant)
 ~~~text
-
+使用者工作階段的到期時間（以**小時**為單位）。變更此值不會影響現有的工作階段。
 ~~~

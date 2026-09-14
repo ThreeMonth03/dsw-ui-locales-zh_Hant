@@ -11,5 +11,5 @@ Directory (tenant) ID
 
 ## Translation (zh_Hant)
 ~~~text
-
+目錄（租戶）ID
 ~~~
