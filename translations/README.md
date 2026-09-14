@@ -4,7 +4,7 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-183 open · 0 completed
+183 open · 2 completed
 
 ### Open (183)
 
@@ -192,9 +192,10 @@ Choose an open form and edit only its translation block.
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 - [Your sign-in attempt has expired or was started in a different window. Please try signing in again.](wizard/your-sign-in-attempt-has-expired-or-was-started--33595386d1f2.translation.md)
 
-### Completed (0)
+### Completed (2)
 
-No completed forms.
+- [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
+- [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 
 ## Mail
 
