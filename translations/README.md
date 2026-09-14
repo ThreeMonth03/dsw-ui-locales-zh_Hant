@@ -4,9 +4,9 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-151 open · 51 completed
+137 open · 51 completed
 
-### Open (151)
+### Open (137)
 
 - [%s knowledge model](wizard/s-knowledge-model--d165e83c9286.translation.md)
 - [%s knowledge model editor](wizard/s-knowledge-model-editor--f51b9eab14d5.translation.md)
@@ -14,10 +14,8 @@ Choose an open form and edit only its translation block.
 - [A newer version of this knowledge model is available.](wizard/a-newer-version-of-this-knowledge-model-is-avail--134f47b40f0d.translation.md)
 - [Account](wizard/account--4fb8cd8ebb40.translation.md)
 - [Account disconnected successfully.](wizard/account-disconnected-successfully--c6b7be8bf029.translation.md)
-- [Added](wizard/added--4a1a1f472d6a.translation.md)
 - [Admin role cannot be deleted](wizard/admin-role-cannot-be-deleted--d6206ecb6653.translation.md)
 - [Admin role has all permissions and cannot be modified.](wizard/admin-role-has-all-permissions-and-cannot-be-mod--0e5ea994c989.translation.md)
-- [All questions in this item are hidden by the current view settings.](wizard/all-questions-in-this-item-are-hidden-by-the-cur--12b9900b1568.translation.md)
 - [Allows users to comment on ALL Projects, regardless of Project sharing and visibility settings....](wizard/allows-users-to-comment-on-all-projects-regardle--3fa19ac613fd.translation.md)
 - [Allows users to edit ALL Projects, regardless of Project sharing and visibility settings.  This p...](wizard/allows-users-to-edit-all-projects-regardless-of--cdb7e5f69626.translation.md)
 - [Allows users to import, export, and delete Document Templates, as well as set them as deprecated...](wizard/allows-users-to-import-export-and-delete-documen--8d0f08e91ad5.translation.md)
@@ -32,9 +30,7 @@ Choose an open form and edit only its translation block.
 - [Are you sure you want to delete the locale %s?](wizard/are-you-sure-you-want-to-delete-the-locale-s--451c45e632e5.translation.md)
 - [Are you sure you want to disconnect %s account?](wizard/are-you-sure-you-want-to-disconnect-s-account--95d76aa83b1a.translation.md)
 - [Ch. %s:](wizard/ch-s--fcd248cbf62c.translation.md)
-- [Changed](wizard/changed--31a66db96e5e.translation.md)
 - [Check your email for the activation link.](wizard/check-your-email-for-the-activation-link--137c3936df37.translation.md)
-- [Click to copy](wizard/click-to-copy--f37e2bc3488f.translation.md)
 - [Code](wizard/code--d1da28a15ce6.translation.md)
 - [Comment on ALL Projects](wizard/comment-on-all-projects--6080a4937625.translation.md)
 - [Compare](wizard/compare--8b87568c5ecc.translation.md)
@@ -44,7 +40,6 @@ Choose an open form and edit only its translation block.
 - [Connect Account](wizard/connect-account--147023b02a6d.translation.md)
 - [Connected Accounts](wizard/connected-accounts--949c17132160.translation.md)
 - [Copied](wizard/copied--b24e283154bc.translation.md)
-- [Copy link to comment thread](wizard/copy-link-to-comment-thread--23b9493f804e.translation.md)
 - [Copy locales](wizard/copy-locales--ed870a7c142f.translation.md)
 - [Create Role](wizard/create-role--d85d7e2e047c.translation.md)
 - [Created at](wizard/created-at--96a66c59d1bf.translation.md)
@@ -68,12 +63,10 @@ Choose an open form and edit only its translation block.
 - [Failed to disconnect account.](wizard/failed-to-disconnect-account--a6f42af22145.translation.md)
 - [Failed to load connected accounts](wizard/failed-to-load-connected-accounts--118d8336b37a.translation.md)
 - [Fill in a valid URL.](wizard/fill-in-a-valid-url--4b8fffa1610a.translation.md)
-- [Follow-up Questions](wizard/follow-up-questions--bfeb0c1ba971.translation.md)
 - [Front-channel logout URL](wizard/front-channel-logout-url--ba7f44af5a17.translation.md)
 - [If enabled, all users can use internal login using email address and password. Otherwise, only ad...](wizard/if-enabled-all-users-can-use-internal-login-usin--4f7fee5ecdd6.translation.md)
 - [Import locale](wizard/import-locale--fa2c5273a188.translation.md)
 - [Importing the locale failed.](wizard/importing-the-locale-failed--eb47277cff8d.translation.md)
-- [Item Template Questions](wizard/item-template-questions--f32ab3ad9fcf.translation.md)
 - [Knowledge Model Editors:](wizard/knowledge-model-editors--0ba91ac3e8ea.translation.md)
 - [Knowledge Model Permissions](wizard/knowledge-model-permissions--ae30f3a8a253.translation.md)
 - [Knowledge model update available](wizard/knowledge-model-update-available--90c4aa0f05b3.translation.md)
@@ -85,13 +78,11 @@ Choose an open form and edit only its translation block.
 - [Manage Project Templates](wizard/manage-project-templates--4f8611a30a7f.translation.md)
 - [Manage Settings](wizard/manage-settings--d31ccd8c9b5b.translation.md)
 - [Manage Users](wizard/manage-users--d894ffeb8ab3.translation.md)
-- [Max Size](wizard/max-size--199d17ce9d0f.translation.md)
 - [Microsoft](wizard/microsoft--c1f3e6fab304.translation.md)
 - [Migrate](wizard/migrate--b3587cef1e2b.translation.md)
 - [Migrate project](wizard/migrate-project--1ccdaaa524c3.translation.md)
 - [Migrate Project](wizard/migrate-project--c143083ea4f5.translation.md)
 - [Missing plugin.](wizard/missing-plugin--cd4e5bdc857d.translation.md)
-- [No Change](wizard/no-change--7b48ec2e976a.translation.md)
 - [No locales](wizard/no-locales--40d6d026d03a.translation.md)
 - [No plugin selected for plugin integration](wizard/no-plugin-selected-for-plugin-integration--64040cd9e752.translation.md)
 - [No user groups found](wizard/no-user-groups-found--b7de2dc87fc8.translation.md)
@@ -100,19 +91,17 @@ Choose an open form and edit only its translation block.
 - [OpenID config could not be saved.](wizard/openid-config-could-not-be-saved--c6a2d63c4d0f.translation.md)
 - [Outdated DT](wizard/outdated-dt--7165751ffe81.translation.md)
 - [Outdated KM](wizard/outdated-km--0458366d7bce.translation.md)
-- [Plugin error.](wizard/plugin-error--78f876089c04.translation.md)
 - [Plugin Integration ID](wizard/plugin-integration-id--221be1893f0e.translation.md)
 - [Plugin Integration Settings](wizard/plugin-integration-settings--ee6c747c3b60.translation.md)
 - [Plugin UUID](wizard/plugin-uuid--64a69c0c2cdd.translation.md)
 - [PO file](wizard/po-file--498f8eece646.translation.md)
 - [Project Language](wizard/project-language--487eb915a38f.translation.md)
 - [Project Permissions](wizard/project-permissions--464fb2dd87ed.translation.md)
+- [Question](wizard/question--8ab9ef9bbff8.translation.md)
 - [Read the guide](wizard/read-the-guide--a9ada70052bb.translation.md)
 - [Redirect URI](wizard/redirect-uri--f0f11490df03.translation.md)
 - [Registration of new accounts via this service is disabled.](wizard/registration-of-new-accounts-via-this-service-is--fb38b1cc7a52.translation.md)
 - [Reload preview](wizard/reload-preview--86761a71185a.translation.md)
-- [Removed](wizard/removed--d3ddb1c92816.translation.md)
-- [Required Phase](wizard/required-phase--c3fdae066363.translation.md)
 - [Role cannot be deleted because it is assigned to users](wizard/role-cannot-be-deleted-because-it-is-assigned-to--8abd3030b9ae.translation.md)
 - [Role could not be deleted.](wizard/role-could-not-be-deleted--a02631a0c04b.translation.md)
 - [Role could not be saved.](wizard/role-could-not-be-saved--c7b48000dc39.translation.md)
@@ -143,15 +132,12 @@ Choose an open form and edit only its translation block.
 - [Unable to load knowledge model.](wizard/unable-to-load-knowledge-model--edec4f4da36c.translation.md)
 - [Unable to parse the JSON translation file: %s](wizard/unable-to-parse-the-json-translation-file-s--1cabd451f487.translation.md)
 - [Unable to parse the PO file: %s](wizard/unable-to-parse-the-po-file-s--3bfe9b4289a5.translation.md)
-- [Unexpected answer UUID "%s" at: %s](wizard/unexpected-answer-uuid-s-at-s--8a4d5191c3e3.translation.md)
 - [Unexpected bad things will happen if you don't read this!](wizard/unexpected-bad-things-will-happen-if-you-don-t-r--f5c09e80c702.translation.md)
-- [Unexpected reply type at: %s](wizard/unexpected-reply-type-at-s--d6788dea27c8.translation.md)
 - [Unknown secret in request configuration for integration: %s](wizard/unknown-secret-in-request-configuration-for-inte--3a5344cad576.translation.md)
 - [Unknown variable in request configuration for integration: %s](wizard/unknown-variable-in-request-configuration-for-in--023b21cb8542.translation.md)
 - [Use Document Template Editor](wizard/use-document-template-editor--bba104278531.translation.md)
 - [Use Knowledge Model Editor](wizard/use-knowledge-model-editor--2faf30cc5e0c.translation.md)
 - [Users using this role](wizard/users-using-this-role--3ac9d3fb2cea.translation.md)
-- [UUID](wizard/uuid--96a5ba827c20.translation.md)
 - [View ALL Projects](wizard/view-all-projects--ccdbd985071e.translation.md)
 - [You are about to permanently delete %s, including all dependent knowledge models, knowledge model...](wizard/you-are-about-to-permanently-delete-s-including--0f55da28e140.translation.md)
 - [You are about to permanently delete all versions of %s, including all dependent knowledge models,...](wizard/you-are-about-to-permanently-delete-all-versions--1bcec9e59ebe.translation.md)
@@ -216,11 +202,10 @@ Choose an open form and edit only its translation block.
 
 ## Mail
 
-9 open · 0 completed
+7 open · 0 completed
 
-### Open (9)
+### Open (7)
 
-- [(unknown)](mail/unknown--633a5c233df3.translation.md)
 - [Email Address Confirmation](mail/email-address-confirmation--8f4743da558a.translation.md)
 - [If you did not request this change, you can safely ignore this email.](mail/if-you-did-not-request-this-change-you-can-safel--1a5570d91f70.translation.md)
 - [In case you did not request this change, you can safely ignore this email.](mail/in-case-you-did-not-request-this-change-you-can--1530a3182d55.translation.md)
@@ -228,7 +213,6 @@ Choose an open form and edit only its translation block.
 - [To confirm that this email address is correct, please click on the button below.](mail/to-confirm-that-this-email-address-is-correct-pl--4aa462dd2cc1.translation.md)
 - [To confirm that this email address is correct, please proceed here](mail/to-confirm-that-this-email-address-is-correct-pl--9192f5d8f8bb.translation.md)
 - [Verify your email](mail/verify-your-email--60626ca46508.translation.md)
-- [You recently requested to change the email address associated with your DSW account.](mail/you-recently-requested-to-change-the-email-addre--22d7cd6a0aa3.translation.md)
 
 ### Completed (0)
 
