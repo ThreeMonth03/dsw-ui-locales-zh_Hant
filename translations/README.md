@@ -4,7 +4,7 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-19 open · 18 completed
+19 open · 20 completed
 
 ### Open (19)
 
@@ -28,7 +28,7 @@ Choose an open form and edit only its translation block.
 - [You are about to permanently delete %s, including all dependent knowledge models, knowledge model...](wizard/you-are-about-to-permanently-delete-s-including--0f55da28e140.translation.md)
 - [You are about to permanently delete all versions of %s, including all dependent knowledge models,...](wizard/you-are-about-to-permanently-delete-all-versions--1bcec9e59ebe.translation.md)
 
-### Completed (18)
+### Completed (20)
 
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
 - [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
@@ -37,6 +37,7 @@ Choose an open form and edit only its translation block.
 - [Carefully review the list of what will be deleted before continuing.](wizard/carefully-review-the-list-of-what-will-be-delete--f3797eacf967.translation.md)
 - [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
 - [Knowledge Models:](wizard/knowledge-models--3cdf9b6dad28.translation.md)
+- [Measure](wizard/measure--64763b6030a5.translation.md)
 - [Plugin](wizard/plugin--96fd89c284da.translation.md)
 - [Projects:](wizard/projects--306678cb83f9.translation.md)
 - [public](wizard/public--8277817baa61.translation.md)
@@ -48,6 +49,7 @@ Choose an open form and edit only its translation block.
 - [Unable to delete the file.](wizard/unable-to-delete-the-file--f3fc94af0383.translation.md)
 - [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 - [View 1 comment](wizard/view-1-comment--3cdb0bc6b96f.translation.md)
+- [Weight](wizard/weight--e842a1889a45.translation.md)
 
 ## Mail
 
