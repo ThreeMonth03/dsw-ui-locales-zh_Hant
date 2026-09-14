@@ -4,7 +4,7 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-151 open · 49 completed
+151 open · 51 completed
 
 ### Open (151)
 
@@ -160,7 +160,7 @@ Choose an open form and edit only its translation block.
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 - [Your sign-in attempt has expired or was started in a different window. Please try signing in again.](wizard/your-sign-in-attempt-has-expired-or-was-started--33595386d1f2.translation.md)
 
-### Completed (49)
+### Completed (51)
 
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
 - [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
@@ -193,6 +193,7 @@ Choose an open form and edit only its translation block.
 - [Link](wizard/link--dbdd277a9176.translation.md)
 - [Login as admin](wizard/login-as-admin--81437bb25f5e.translation.md)
 - [Markdown](wizard/markdown--93c9559a202f.translation.md)
+- [Measure](wizard/measure--64763b6030a5.translation.md)
 - [Non-Admin Login](wizard/non-admin-login--70ccaa90c0ab.translation.md)
 - [Ordered List](wizard/ordered-list--36c1d24412ec.translation.md)
 - [Projects:](wizard/projects--306678cb83f9.translation.md)
@@ -211,6 +212,7 @@ Choose an open form and edit only its translation block.
 - [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 - [User Email Link Expiration](wizard/user-email-link-expiration--0f26c0c5ab63.translation.md)
 - [View 1 comment](wizard/view-1-comment--3cdb0bc6b96f.translation.md)
+- [Weight](wizard/weight--e842a1889a45.translation.md)
 
 ## Mail
 
