@@ -7,11 +7,20 @@ You can contribute with GitHub's web editor. No programming or gettext knowledge
 1. Select the `sync/vX.Y` branch for the DSW version you are translating.
 2. Open `translations/README.md` and select a source string from the **Open** section.
 3. Use the pencil icon to edit the file.
-4. Enter Traditional Chinese only between the fences under `Translation (zh_Hant)`.
+4. Fill only an empty `Translation (zh_Hant)` block, keeping its fences.
 5. Propose the change as a pull request to the same `sync/vX.Y` branch.
 
 Do not edit the English source, headings, hidden metadata, or fence markers. Preserve placeholders
 such as `%s`, `{name}`, and `${value}` exactly. Follow `glossary/zh-Hant.csv` when it defines a term.
+
+Only fields blank in the pull request's base may be changed. Reviewers may
+revise new translations in that same PR, but must not rewrite existing text.
+Nonempty official PO translations are protected too, including fuzzy entries
+whose Markdown forms appear blank. Do not clear review flags. Report suspected
+errors in existing translations separately for a maintainer's decision.
+
+CI enforces this rule before merge and during cross-version propagation.
+Official Weblate synchronization continues independently of this contributor policy.
 
 CI checks the file structure and placeholders, builds the locale, and renders non-draft pull
 requests in a disposable DSW installation. A pull-request comment links to the screenshots and
