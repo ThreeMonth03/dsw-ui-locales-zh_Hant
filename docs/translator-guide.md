@@ -1,15 +1,20 @@
 # Translator guide
 
-## Fill a blank form
+## Translate or correct a form
 
 Open `translations/README.md` on the matching version branch. Forms that still need work are listed
-first under **Open**; completed forms remain below for reference, not rewriting.
+first under **Open**; completed forms remain below under **Completed**.
 
-Fill only fields blank in the pull request's base. Review may refine those new
-translations in the same PR. Existing nonempty translations, including fuzzy
-official PO entries whose forms look blank, are protected by CI. Do not clear
-review flags. Report suspected errors separately for a maintainer's decision.
-Official Weblate sync is independent of this contribution policy.
+Prioritize empty fields and review the newly added translations. Keep existing
+wording unless a problem has been identified. Existing translations are not
+archived or frozen: address reported issues in focused PRs, link the report or
+discussion, and explain the correction. This includes nonempty fuzzy entries.
+Avoid unrelated rewrites and do not edit generated PO files or review flags.
+
+CI validates source identity, formatting, and placeholders for both new
+translations and corrections. Official Weblate sync continues independently.
+If the official translation has no Markdown form, report the issue so a
+maintainer can prepare a form from its official POT entry.
 
 A translation form looks like this:
 
