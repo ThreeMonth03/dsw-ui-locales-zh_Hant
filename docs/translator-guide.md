@@ -40,6 +40,17 @@ used because this locale has one gettext plural form.
 - Keep product names, identifiers, and standard abbreviations unchanged unless the glossary says
   otherwise.
 
+## Metric terminology
+
+Use `權重` for `Weight` and `衡量值` for `Measure`. In the Knowledge Model answer
+editor, weight expresses an answer's importance and measure expresses its
+evaluation for a metric. The project's Metrics page displays the aggregated
+measure. Keep the labels consistent across both screens; do not change the
+underlying values or scoring rules.
+
+FAIR metric names and descriptions belong to the Knowledge Model locale, not
+the UI locale. Correct them in the KM translation repository.
+
 ## See the translation in DSW
 
 CI builds every non-draft translation pull request and imports it into a disposable DSW
