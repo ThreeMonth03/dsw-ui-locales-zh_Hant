@@ -69,6 +69,6 @@ versions:
       document_format_uuid: a9293d08-59a4-4e6b-ae62-7a6a570b031c
   v4.33:
     upstream_ref: v4.33
-    locale_version: 4.33.0
+    locale_version: 4.33.1
     recommended_app_version: 4.33.0
     state: active
