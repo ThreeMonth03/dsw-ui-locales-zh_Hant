@@ -16,8 +16,9 @@ run a local Weblate server. CI validates the form, builds the locale, and provid
 artifacts. Add the `live-preview` label to a pull request when you want a temporary browsable,
 read-only DSW.
 
-Only fields blank in the PR base may be changed. Review may refine those new
-translations within the same PR; existing translations remain unchanged.
+Prioritize empty fields for the current work. Existing translations remain
+maintained, not frozen: when a problem is reported, propose a focused correction
+and explain it in the PR. Avoid unrelated rewrites while filling gaps.
 
 If the English text has no form, use an
 [issue template](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose) with the
