@@ -1,26 +1,16 @@
 # Version branches
 
-Every supported DSW minor release has an independent `sync/vX.Y` branch containing the exact
-official source catalogs and its own Markdown translation forms.
-
 | Branch | Purpose |
 | --- | --- |
-| `main` | Shared documentation, glossary, issue forms, and version configuration |
-| `sync/vX.Y` | Translation work for one DSW minor release |
+| `main` | Shared contributor instructions, workflow pins, and configuration |
+| `sync/vX.Y` | Official catalogs and Markdown translation forms for one DSW minor version |
 
-Every release marked `active` or `maintenance` in `translation-config.yml` remains open for
-contributions. A locked official Weblate project is treated as a maintained release, not an
-archived one.
+The daily synchronization discovers official Weblate versions and creates a branch once the
+matching official source catalogs are available. Existing branches remain maintained, including
+versions whose official Weblate project is locked.
 
-Automation adds a new version only after both its official Weblate project and `wizard-locales`
-branch exist. It creates blank forms from that version's exact sources; translations are not copied
-from another version by similarity.
+Each version is synchronized independently. This tool does not automatically overwrite another
+version's translations. Weblate remains responsible for its own cross-component propagation.
 
-When contributing, always target the same version branch where you found the form. After a pull
-request is merged, automation fills matching blank forms on other maintained branches only when the
-component, source, plural source, context, and form kind are identical. Automatic
-propagation never replaces existing translations, including nonempty fuzzy
-translations in the official PO. Reported issues in existing wording can be
-corrected through reviewed PRs to each affected version branch.
-Automation also advances the immutable locale package version on every branch whose
-effective translation content changed.
+There is no local locale package version or container release.
+The upstream source commit and translation Git history provide the revision record.

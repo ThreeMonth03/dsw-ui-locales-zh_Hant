@@ -1,37 +1,19 @@
-# DSW UI Traditional Chinese translations
+# Translate the DSW interface
 
-This repository provides a simple translation queue for English text missing from the official DSW
-Traditional Chinese UI locale. Translation happens in Markdown files and can be completed entirely
-in GitHub's web interface.
+Fill Markdown translation forms in GitHub and contribute them to official DSW Weblate.
+No programming or local Weblate installation is required.
 
-:::{admonition} Begin with a version branch
-:class: tip
-
-Choose the `sync/vX.Y` branch matching the DSW screen you are translating, then open
-`translations/README.md` on that branch.
-:::
+1. Select the matching `sync/vX.Y` branch.
+2. Open `translations/README.md` and fill an empty translation block.
+3. Open a PR and resolve any source or placeholder errors reported by CI.
+4. A maintainer submits a reviewed batch as fuzzy translations.
+5. Review the wording and status on official Weblate.
 
 ```{toctree}
 :maxdepth: 2
-:hidden:
 
 translator-guide
 version-policy
 ```
 
-## Contribution path
-
-1. Open a form from the **Open** section on the correct version branch.
-2. Fill only the `Translation (zh_Hant)` block.
-3. Submit a pull request to the same branch.
-4. CI validates and packages the locale.
-5. Screenshot artifacts render the result, and the optional `live-preview` label launches a
-   temporary browsable DSW.
-
-If no form matches the UI text, use the repository's
-[issue forms](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose). Include the
-DSW version, exact English text, screen location, and a screenshot.
-
-The official `ds-wizard/wizard-locales` repository remains the baseline. When official Weblate adds
-the same translation, automation removes the local form so this repository remains a focused work
-queue.
+This website contains instructions. It does not host a DSW preview.
