@@ -33,7 +33,7 @@ jobs:
         uses: actions/checkout@v6
         with:
           repository: ThreeMonth03/dsw-locale-tool
-          ref: 53940c2f22ee3b84266b00fc1a5f56c82da61ca8
+          ref: e44fc99b0fc3161ff3311cf4e44df1d6676c9754
           path: tool
           persist-credentials: false
 
