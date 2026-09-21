@@ -1,0 +1,74 @@
+name: Documentation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: docs/requirements.txt
+
+      - name: Check out trusted locale tool
+        uses: actions/checkout@v6
+        with:
+          repository: ThreeMonth03/dsw-locale-tool
+          ref: dd9c0b1aa1939f8144474d75f47b18a02ba3ccc0
+          path: tool
+          persist-credentials: false
+
+      - name: Validate configuration
+        run: |
+          python -m pip install ./tool
+          dsw-locale validate-config --config translation-config.yml
+
+      - name: Install documentation dependencies
+        run: python -m pip install --requirement docs/requirements.txt
+
+      - name: Build documentation strictly
+        run: python -m sphinx -W --keep-going -b html docs docs/_build/html
+
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        uses: actions/configure-pages@v6
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: docs/_build/html
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
