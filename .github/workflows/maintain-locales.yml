@@ -1,0 +1,16 @@
+name: Synchronize official translations
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * *"
+concurrency:
+  group: locale-maintenance
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main'
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/sync-weblate.yml@dd9c0b1aa1939f8144474d75f47b18a02ba3ccc0
+    with:
+      tool_ref: dd9c0b1aa1939f8144474d75f47b18a02ba3ccc0
