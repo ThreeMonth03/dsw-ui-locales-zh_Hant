@@ -11,6 +11,6 @@ jobs:
     with:
       tool_ref: 53940c2f22ee3b84266b00fc1a5f56c82da61ca8
       base_sha: ${{ github.event.pull_request.base.sha }}
-      head_sha: ${{ github.event.pull_request.head.sha }}
-      head_repository: ${{ github.event.pull_request.head.repo.full_name }}
+      head_sha: ${{ github.sha }}
+      head_repository: ${{ github.repository }}
       branch: ${{ github.event.pull_request.base.ref }}
