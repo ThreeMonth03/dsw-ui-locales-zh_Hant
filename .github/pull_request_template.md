@@ -3,15 +3,14 @@
 - DSW version:
 - English source:
 - Screen or context:
+- Linked discussion, if correcting existing wording:
 
 ## Checklist
 
-- [ ] This pull request targets the matching `sync/vX.Y` branch.
-- [ ] I edited only the `Translation (zh_Hant)` block in each translation form.
-- [ ] I preserved placeholders such as `%s`, `{name}`, and `${value}`.
-- [ ] I followed the glossary where it defines a term.
+- [ ] This PR targets the matching `sync/vX.Y` branch.
+- [ ] I changed only translation blocks, not source text or metadata.
+- [ ] Placeholders and Markdown links are preserved.
+- [ ] I followed existing translations, using the glossary where needed.
 
-## Preview
-
-CI automatically creates screenshot artifacts. For a temporary browsable DSW, ask a maintainer to
-add the `live-preview` label. Contributors with label permission may add it directly.
+CI validates the contribution. Maintainers submit reviewed batches to official Weblate as fuzzy
+translations; merging this PR does not upload or approve them.
