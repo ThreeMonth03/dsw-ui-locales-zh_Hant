@@ -37,6 +37,6 @@ jobs:
       apply: ${{ inputs.apply }}
       expected_plan: ${{ inputs.expected_plan }}
       allow_corrections: ${{ inputs.allow_corrections }}
-      limit: ${{ inputs.limit }}
+      limit: ${{ fromJSON(format('{0}', inputs.limit)) }}
     secrets:
       LOCALIZE_API_TOKEN: ${{ secrets.LOCALIZE_API_TOKEN }}
