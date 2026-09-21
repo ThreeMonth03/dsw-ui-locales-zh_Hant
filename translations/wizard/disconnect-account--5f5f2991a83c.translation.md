@@ -11,5 +11,5 @@ Disconnect Account
 
 ## Translation (zh_Hant)
 ~~~text
-
+取消帳號連結
 ~~~

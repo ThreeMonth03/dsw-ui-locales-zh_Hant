@@ -11,5 +11,5 @@ Sign up was successful
 
 ## Translation (zh_Hant)
 ~~~text
-
+註冊成功
 ~~~

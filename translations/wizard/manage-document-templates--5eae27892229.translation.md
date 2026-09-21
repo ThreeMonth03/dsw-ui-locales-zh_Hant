@@ -11,5 +11,5 @@ Manage Document Templates
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理文件模板
 ~~~

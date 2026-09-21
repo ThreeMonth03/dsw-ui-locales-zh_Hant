@@ -11,5 +11,5 @@ Custom answer, not selected from the integration
 
 ## Translation (zh_Hant)
 ~~~text
-
+自訂回答，並非從整合提供的選項中選取
 ~~~

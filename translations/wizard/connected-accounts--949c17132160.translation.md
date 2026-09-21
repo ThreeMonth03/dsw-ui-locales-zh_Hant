@@ -11,5 +11,5 @@ Connected Accounts
 
 ## Translation (zh_Hant)
 ~~~text
-
+已連結的帳號
 ~~~

@@ -11,5 +11,5 @@ A newer version of this knowledge model is available.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此知識模型有較新的版本可用。
 ~~~

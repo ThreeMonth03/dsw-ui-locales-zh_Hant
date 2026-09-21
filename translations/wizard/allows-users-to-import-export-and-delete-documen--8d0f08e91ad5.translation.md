@@ -11,5 +11,5 @@ Allows users to import, export, and delete Document Templates, as well as set th
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許使用者匯入、匯出及刪除文件模板，以及將其設為已棄用或還原。
 ~~~

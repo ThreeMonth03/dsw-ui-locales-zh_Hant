@@ -11,5 +11,5 @@ Use Knowledge Model Editor
 
 ## Translation (zh_Hant)
 ~~~text
-
+使用知識模型編輯器
 ~~~

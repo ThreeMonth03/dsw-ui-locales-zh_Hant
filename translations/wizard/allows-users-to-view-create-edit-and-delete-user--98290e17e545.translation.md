@@ -11,5 +11,5 @@ Allows users to view, create, edit, and delete user accounts.
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許使用者檢視、建立、編輯及刪除使用者帳號。
 ~~~

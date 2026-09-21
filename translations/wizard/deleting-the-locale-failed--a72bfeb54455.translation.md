@@ -11,5 +11,5 @@ Deleting the locale failed.
 
 ## Translation (zh_Hant)
 ~~~text
-
+刪除語系失敗。
 ~~~

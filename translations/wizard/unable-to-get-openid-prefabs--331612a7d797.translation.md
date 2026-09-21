@@ -11,5 +11,5 @@ Unable to get OpenID prefabs.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法取得 OpenID 預設組態。
 ~~~

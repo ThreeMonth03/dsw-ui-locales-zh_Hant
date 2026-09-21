@@ -11,5 +11,5 @@ Complete Your Registration
 
 ## Translation (zh_Hant)
 ~~~text
-
+完成註冊
 ~~~

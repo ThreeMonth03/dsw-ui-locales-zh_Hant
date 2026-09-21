@@ -11,5 +11,5 @@ Manage Settings
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理設定
 ~~~

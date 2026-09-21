@@ -11,5 +11,5 @@ Selected locales cannot be reused from the previous package version.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法從先前的套件版本沿用所選語系。
 ~~~

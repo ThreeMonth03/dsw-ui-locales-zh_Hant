@@ -11,5 +11,5 @@ Code
 
 ## Translation (zh_Hant)
 ~~~text
-
+語系代碼
 ~~~

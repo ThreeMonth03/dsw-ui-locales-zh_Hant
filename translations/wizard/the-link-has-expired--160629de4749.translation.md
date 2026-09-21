@@ -11,5 +11,5 @@ The link has expired.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此連結已過期。
 ~~~

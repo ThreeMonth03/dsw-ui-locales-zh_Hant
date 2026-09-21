@@ -11,5 +11,5 @@ Manage Users
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理使用者
 ~~~

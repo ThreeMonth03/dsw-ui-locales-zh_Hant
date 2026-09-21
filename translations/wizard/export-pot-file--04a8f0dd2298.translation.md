@@ -11,5 +11,5 @@ Export .pot file
 
 ## Translation (zh_Hant)
 ~~~text
-
+匯出 .pot 檔案
 ~~~

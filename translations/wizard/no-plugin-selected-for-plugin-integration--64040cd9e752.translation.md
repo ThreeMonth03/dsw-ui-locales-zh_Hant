@@ -11,5 +11,5 @@ No plugin selected for plugin integration
 
 ## Translation (zh_Hant)
 ~~~text
-
+尚未為外掛程式整合選擇外掛程式
 ~~~

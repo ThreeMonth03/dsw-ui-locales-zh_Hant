@@ -11,5 +11,5 @@ Verify your email
 
 ## Translation (zh_Hant)
 ~~~text
-
+驗證您的電子郵件
 ~~~

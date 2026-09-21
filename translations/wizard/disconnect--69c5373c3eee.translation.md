@@ -11,5 +11,5 @@ Disconnect
 
 ## Translation (zh_Hant)
 ~~~text
-
+取消連結
 ~~~

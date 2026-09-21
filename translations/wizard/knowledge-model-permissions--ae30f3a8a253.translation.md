@@ -11,5 +11,5 @@ Knowledge Model Permissions
 
 ## Translation (zh_Hant)
 ~~~text
-
+知識模型權限
 ~~~

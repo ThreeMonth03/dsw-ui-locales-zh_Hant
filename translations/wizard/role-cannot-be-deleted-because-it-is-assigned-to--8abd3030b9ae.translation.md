@@ -11,5 +11,5 @@ Role cannot be deleted because it is assigned to users
 
 ## Translation (zh_Hant)
 ~~~text
-
+此角色已指派給使用者，無法刪除
 ~~~

@@ -13,5 +13,7 @@ This permission also allows users to manage Knowledge Model Secrets.
 
 ## Translation (zh_Hant)
 ~~~text
+允許使用者匯入、匯出及刪除知識模型，以及將其設為已棄用、還原或設為公開。
 
+此權限也允許使用者管理知識模型密鑰。
 ~~~

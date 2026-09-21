@@ -11,5 +11,5 @@ Copy locales
 
 ## Translation (zh_Hant)
 ~~~text
-
+複製語系
 ~~~

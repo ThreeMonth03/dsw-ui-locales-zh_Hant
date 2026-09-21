@@ -11,5 +11,5 @@ Manage ALL Projects
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理所有專案
 ~~~

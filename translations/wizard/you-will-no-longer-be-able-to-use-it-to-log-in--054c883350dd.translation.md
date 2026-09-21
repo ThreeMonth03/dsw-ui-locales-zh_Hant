@@ -11,5 +11,5 @@ You will no longer be able to use it to log in.
 
 ## Translation (zh_Hant)
 ~~~text
-
+您將無法再使用此帳號登入。
 ~~~

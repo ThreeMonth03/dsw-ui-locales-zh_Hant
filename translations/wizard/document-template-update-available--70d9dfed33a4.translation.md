@@ -11,5 +11,5 @@ Document template update available
 
 ## Translation (zh_Hant)
 ~~~text
-
+文件模板有更新可用
 ~~~

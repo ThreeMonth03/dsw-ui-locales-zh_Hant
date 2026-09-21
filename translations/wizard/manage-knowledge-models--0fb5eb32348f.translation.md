@@ -11,5 +11,5 @@ Manage Knowledge Models
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理知識模型
 ~~~

@@ -11,5 +11,5 @@ You have uploaded an invalid PO file.
 
 ## Translation (zh_Hant)
 ~~~text
-
+您上傳的 PO 檔案無效。
 ~~~

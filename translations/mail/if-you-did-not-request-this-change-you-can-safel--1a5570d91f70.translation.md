@@ -11,5 +11,5 @@ If you did not request this change, you can safely ignore this email.
 
 ## Translation (zh_Hant)
 ~~~text
-
+若您未要求此變更，可以放心忽略這封電子郵件。
 ~~~

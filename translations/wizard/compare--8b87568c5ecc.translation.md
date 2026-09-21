@@ -11,5 +11,5 @@ Compare
 
 ## Translation (zh_Hant)
 ~~~text
-
+比較
 ~~~

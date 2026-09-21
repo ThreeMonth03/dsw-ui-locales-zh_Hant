@@ -13,5 +13,7 @@ This permission also requires the **View ALL Projects** permission.
 
 ## Translation (zh_Hant)
 ~~~text
+允許使用者在所有專案中留言，不受專案的分享與可見性設定限制。
 
+此權限也需要**檢視所有專案**權限。
 ~~~

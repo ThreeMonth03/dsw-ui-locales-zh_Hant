@@ -11,5 +11,5 @@ Failed to load connected accounts
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法載入已連結的帳號
 ~~~

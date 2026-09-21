@@ -11,5 +11,5 @@ Users using this role
 
 ## Translation (zh_Hant)
 ~~~text
-
+使用此角色的使用者
 ~~~

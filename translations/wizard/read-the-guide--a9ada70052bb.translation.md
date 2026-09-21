@@ -11,5 +11,5 @@ Read the guide
 
 ## Translation (zh_Hant)
 ~~~text
-
+閱讀指南
 ~~~

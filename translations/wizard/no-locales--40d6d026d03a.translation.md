@@ -11,5 +11,5 @@ No locales
 
 ## Translation (zh_Hant)
 ~~~text
-
+尚無語系
 ~~~

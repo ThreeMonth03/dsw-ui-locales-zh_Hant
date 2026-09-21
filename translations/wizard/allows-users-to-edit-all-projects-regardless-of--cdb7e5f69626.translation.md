@@ -13,5 +13,7 @@ This permission also requires the **View ALL Projects** and **Comment on ALL Pro
 
 ## Translation (zh_Hant)
 ~~~text
+允許使用者編輯所有專案，不受專案的分享與可見性設定限制。
 
+此權限也需要**檢視所有專案**及**在所有專案中留言**權限。
 ~~~

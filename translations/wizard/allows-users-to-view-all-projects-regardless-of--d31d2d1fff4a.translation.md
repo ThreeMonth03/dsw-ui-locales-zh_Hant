@@ -11,5 +11,5 @@ Allows users to view ALL Projects, regardless of Project sharing and visibility 
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許使用者檢視所有專案，不受專案的分享與可見性設定限制。
 ~~~

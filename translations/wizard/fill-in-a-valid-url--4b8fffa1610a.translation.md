@@ -11,5 +11,5 @@ Fill in a valid URL.
 
 ## Translation (zh_Hant)
 ~~~text
-
+請填寫有效的網址。
 ~~~

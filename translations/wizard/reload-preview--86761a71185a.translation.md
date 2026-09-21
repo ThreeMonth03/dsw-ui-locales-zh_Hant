@@ -11,5 +11,5 @@ Reload preview
 
 ## Translation (zh_Hant)
 ~~~text
-
+重新載入預覽
 ~~~

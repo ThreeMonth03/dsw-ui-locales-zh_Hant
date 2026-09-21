@@ -13,5 +13,7 @@ This permission also requires the **Manage Knowledge Models** permission.
 
 ## Translation (zh_Hant)
 ~~~text
+允許使用者檢視、建立、編輯、刪除及移轉知識模型編輯器，並從中發布知識模型。
 
+此權限也需要**管理知識模型**權限。
 ~~~

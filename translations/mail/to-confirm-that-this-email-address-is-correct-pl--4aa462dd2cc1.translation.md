@@ -11,5 +11,5 @@ To confirm that this email address is correct, please click on the button below.
 
 ## Translation (zh_Hant)
 ~~~text
-
+要確認此電子郵件地址是否正確，請點擊下方按鈕。
 ~~~

@@ -11,5 +11,5 @@ Importing the locale failed.
 
 ## Translation (zh_Hant)
 ~~~text
-
+匯入語系失敗。
 ~~~

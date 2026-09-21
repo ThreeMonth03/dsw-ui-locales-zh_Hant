@@ -11,5 +11,5 @@ Settings Permissions
 
 ## Translation (zh_Hant)
 ~~~text
-
+設定權限
 ~~~

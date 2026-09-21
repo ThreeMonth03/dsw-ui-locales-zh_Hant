@@ -11,5 +11,5 @@ Migrate
 
 ## Translation (zh_Hant)
 ~~~text
-
+移轉
 ~~~

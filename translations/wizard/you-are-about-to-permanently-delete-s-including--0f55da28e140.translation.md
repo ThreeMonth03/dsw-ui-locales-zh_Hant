@@ -11,5 +11,5 @@ You are about to permanently delete %s, including all dependent knowledge models
 
 ## Translation (zh_Hant)
 ~~~text
-
+您即將永久刪除 %s，以及所有相依的知識模型、知識模型編輯器與專案。
 ~~~

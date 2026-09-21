@@ -11,5 +11,5 @@ If enabled, all users can use internal login using email address and password. O
 
 ## Translation (zh_Hant)
 ~~~text
-
+若啟用，所有使用者都可以透過電子郵件地址與密碼使用內部登入。否則，只有管理員可以使用內部登入，其他使用者必須透過外部身分識別提供者登入。
 ~~~

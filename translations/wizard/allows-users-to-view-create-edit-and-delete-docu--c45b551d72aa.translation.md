@@ -13,5 +13,7 @@ This permission also requires the **Manage Document Templates** permission.
 
 ## Translation (zh_Hant)
 ~~~text
+允許使用者檢視、建立、編輯及刪除文件模板編輯器，並從中發布文件模板。
 
+此權限也需要**管理文件模板**權限。
 ~~~

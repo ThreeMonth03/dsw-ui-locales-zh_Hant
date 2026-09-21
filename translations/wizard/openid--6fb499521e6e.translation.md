@@ -11,5 +11,5 @@ OpenID
 
 ## Translation (zh_Hant)
 ~~~text
-
+OpenID
 ~~~

@@ -11,5 +11,5 @@ Are you sure you want to delete the locale %s?
 
 ## Translation (zh_Hant)
 ~~~text
-
+您確定要刪除 %s 語系嗎？
 ~~~

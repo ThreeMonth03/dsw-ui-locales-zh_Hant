@@ -11,5 +11,5 @@ Unable to get dependents of the Knowledge Model.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法取得相依於此知識模型的項目。
 ~~~

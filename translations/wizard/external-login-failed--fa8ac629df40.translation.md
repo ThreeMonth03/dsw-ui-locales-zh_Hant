@@ -11,5 +11,5 @@ External login failed.
 
 ## Translation (zh_Hant)
 ~~~text
-
+外部登入失敗。
 ~~~

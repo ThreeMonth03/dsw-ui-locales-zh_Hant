@@ -11,5 +11,5 @@ Translation for language '%s' already exists.
 
 ## Translation (zh_Hant)
 ~~~text
-
+語言「%s」的翻譯已存在。
 ~~~

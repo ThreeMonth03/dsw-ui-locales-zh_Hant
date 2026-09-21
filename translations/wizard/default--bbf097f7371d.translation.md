@@ -11,5 +11,5 @@ Default
 
 ## Translation (zh_Hant)
 ~~~text
-
+預設
 ~~~

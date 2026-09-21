@@ -11,5 +11,5 @@ compare with
 
 ## Translation (zh_Hant)
 ~~~text
-
+比較對象
 ~~~

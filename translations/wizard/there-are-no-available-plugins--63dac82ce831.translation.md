@@ -11,5 +11,5 @@ There are no available plugins.
 
 ## Translation (zh_Hant)
 ~~~text
-
+沒有可用的外掛程式。
 ~~~

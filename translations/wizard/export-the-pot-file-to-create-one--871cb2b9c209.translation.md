@@ -11,5 +11,5 @@ Export the .pot file to create one.
 
 ## Translation (zh_Hant)
 ~~~text
-
+請匯出 .pot 檔案以建立語系。
 ~~~

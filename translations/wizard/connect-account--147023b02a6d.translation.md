@@ -11,5 +11,5 @@ Connect Account
 
 ## Translation (zh_Hant)
 ~~~text
-
+連結帳號
 ~~~
