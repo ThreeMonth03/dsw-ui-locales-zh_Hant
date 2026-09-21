@@ -11,5 +11,5 @@ Use Document Template Editor
 
 ## Translation (zh_Hant)
 ~~~text
-
+使用文件模板編輯器
 ~~~

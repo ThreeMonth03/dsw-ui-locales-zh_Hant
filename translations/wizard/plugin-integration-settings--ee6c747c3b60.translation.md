@@ -11,5 +11,5 @@ Plugin Integration Settings
 
 ## Translation (zh_Hant)
 ~~~text
-
+外掛程式整合設定
 ~~~

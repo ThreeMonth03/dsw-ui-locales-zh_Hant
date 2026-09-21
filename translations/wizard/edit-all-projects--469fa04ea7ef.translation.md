@@ -11,5 +11,5 @@ Edit ALL Projects
 
 ## Translation (zh_Hant)
 ~~~text
-
+編輯所有專案
 ~~~

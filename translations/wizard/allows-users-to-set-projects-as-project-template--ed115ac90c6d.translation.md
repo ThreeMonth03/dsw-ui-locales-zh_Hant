@@ -13,5 +13,7 @@ Users with this permission can also create new Projects directly from Knowledge 
 
 ## Translation (zh_Hant)
 ~~~text
+允許使用者將專案設為專案模板。
 
+即使已設定只能從模板建立專案，擁有此權限的使用者仍可直接從知識模型建立新專案。
 ~~~

@@ -11,5 +11,5 @@ Unexpected bad things will happen if you don't read this!
 
 ## Translation (zh_Hant)
 ~~~text
-
+若未詳讀此說明，將會造成意料之外的不良後果！
 ~~~

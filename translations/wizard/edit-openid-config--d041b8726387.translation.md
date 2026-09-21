@@ -11,5 +11,5 @@ Edit OpenID Config
 
 ## Translation (zh_Hant)
 ~~~text
-
+編輯 OpenID 設定
 ~~~

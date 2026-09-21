@@ -11,5 +11,5 @@ Redirect URI
 
 ## Translation (zh_Hant)
 ~~~text
-
+重新導向 URI
 ~~~

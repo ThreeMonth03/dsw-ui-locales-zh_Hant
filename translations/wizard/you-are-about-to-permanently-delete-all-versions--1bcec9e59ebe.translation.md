@@ -11,5 +11,5 @@ You are about to permanently delete all versions of %s, including all dependent 
 
 ## Translation (zh_Hant)
 ~~~text
-
+您即將永久刪除 %s 的所有版本，以及所有相依的知識模型、知識模型編輯器與專案。
 ~~~

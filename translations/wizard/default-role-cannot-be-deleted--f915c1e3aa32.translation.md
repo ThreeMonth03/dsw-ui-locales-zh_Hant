@@ -11,5 +11,5 @@ Default role cannot be deleted
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法刪除預設角色
 ~~~

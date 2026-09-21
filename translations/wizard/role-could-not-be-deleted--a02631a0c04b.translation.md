@@ -11,5 +11,5 @@ Role could not be deleted.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法刪除角色。
 ~~~

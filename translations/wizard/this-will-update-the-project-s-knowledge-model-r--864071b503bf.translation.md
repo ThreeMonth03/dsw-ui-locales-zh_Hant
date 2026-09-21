@@ -11,5 +11,5 @@ This will update the project’s knowledge model. Replies associated with questi
 
 ## Translation (zh_Hant)
 ~~~text
-
+這將更新專案的知識模型。新知識模型中未包含的問題，其回覆可能無法保留。
 ~~~

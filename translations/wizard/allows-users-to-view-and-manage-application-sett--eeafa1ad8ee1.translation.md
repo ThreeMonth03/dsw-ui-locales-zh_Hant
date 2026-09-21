@@ -11,5 +11,5 @@ Allows users to view and manage application settings.
 
 ## Translation (zh_Hant)
 ~~~text
-
+允許使用者檢視及管理應用程式設定。
 ~~~

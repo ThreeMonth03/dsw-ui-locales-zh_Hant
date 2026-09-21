@@ -11,5 +11,5 @@ Unable to load knowledge model.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法載入知識模型。
 ~~~

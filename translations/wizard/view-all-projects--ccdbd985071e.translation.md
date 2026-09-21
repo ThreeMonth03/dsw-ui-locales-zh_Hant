@@ -11,5 +11,5 @@ View ALL Projects
 
 ## Translation (zh_Hant)
 ~~~text
-
+檢視所有專案
 ~~~

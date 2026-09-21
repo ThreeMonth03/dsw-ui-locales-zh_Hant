@@ -11,5 +11,5 @@ Knowledge model update available
 
 ## Translation (zh_Hant)
 ~~~text
-
+知識模型有更新可用
 ~~~

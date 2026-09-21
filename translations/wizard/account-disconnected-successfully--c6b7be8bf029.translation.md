@@ -11,5 +11,5 @@ Account disconnected successfully.
 
 ## Translation (zh_Hant)
 ~~~text
-
+已成功取消帳號連結。
 ~~~

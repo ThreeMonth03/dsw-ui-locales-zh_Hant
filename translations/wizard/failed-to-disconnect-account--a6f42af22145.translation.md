@@ -11,5 +11,5 @@ Failed to disconnect account.
 
 ## Translation (zh_Hant)
 ~~~text
-
+取消帳號連結失敗。
 ~~~

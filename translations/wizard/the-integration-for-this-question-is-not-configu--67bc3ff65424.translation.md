@@ -11,5 +11,5 @@ The integration for this question is not configured properly.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此問題的整合設定不正確。
 ~~~

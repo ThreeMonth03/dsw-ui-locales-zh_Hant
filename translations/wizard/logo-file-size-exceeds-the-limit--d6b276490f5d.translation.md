@@ -11,5 +11,5 @@ Logo file size exceeds the limit.
 
 ## Translation (zh_Hant)
 ~~~text
-
+標誌檔案大小超過上限。
 ~~~

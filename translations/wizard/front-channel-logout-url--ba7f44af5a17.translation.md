@@ -11,5 +11,5 @@ Front-channel logout URL
 
 ## Translation (zh_Hant)
 ~~~text
-
+前端通道登出網址
 ~~~

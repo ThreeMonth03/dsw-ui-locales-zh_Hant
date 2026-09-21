@@ -11,5 +11,5 @@ Registration of new accounts via this service is disabled.
 
 ## Translation (zh_Hant)
 ~~~text
-
+已停用透過此服務註冊新帳號的功能。
 ~~~

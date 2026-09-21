@@ -11,5 +11,5 @@ Select the locales to copy to the new version.
 
 ## Translation (zh_Hant)
 ~~~text
-
+請選擇要複製到新版本的語系。
 ~~~

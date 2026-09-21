@@ -11,5 +11,5 @@ You have not connected any external accounts.
 
 ## Translation (zh_Hant)
 ~~~text
-
+您尚未連結任何外部帳號。
 ~~~

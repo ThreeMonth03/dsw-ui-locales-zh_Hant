@@ -11,5 +11,5 @@ Admin role cannot be deleted
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法刪除管理員角色
 ~~~

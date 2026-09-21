@@ -11,5 +11,5 @@ There are no locales for this knowledge model yet.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此知識模型尚無語系。
 ~~~

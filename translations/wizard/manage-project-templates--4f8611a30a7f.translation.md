@@ -11,5 +11,5 @@ Manage Project Templates
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理專案模板
 ~~~

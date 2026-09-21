@@ -11,5 +11,5 @@ Unable to parse the PO file: %s
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法解析 PO 檔案：%s
 ~~~

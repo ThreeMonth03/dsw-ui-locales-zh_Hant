@@ -11,5 +11,5 @@ Are you sure you want to disconnect %s account?
 
 ## Translation (zh_Hant)
 ~~~text
-
+您確定要取消 %s 帳號的連結嗎？
 ~~~

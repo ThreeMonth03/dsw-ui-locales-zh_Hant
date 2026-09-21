@@ -11,5 +11,5 @@ Admin role has all permissions and cannot be modified.
 
 ## Translation (zh_Hant)
 ~~~text
-
+管理員角色擁有所有權限，且無法修改。
 ~~~

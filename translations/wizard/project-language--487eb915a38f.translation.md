@@ -11,5 +11,5 @@ Project Language
 
 ## Translation (zh_Hant)
 ~~~text
-
+專案語言
 ~~~

@@ -11,5 +11,5 @@ Check your email for the activation link.
 
 ## Translation (zh_Hant)
 ~~~text
-
+請查看您的電子郵件以取得啟用連結。
 ~~~

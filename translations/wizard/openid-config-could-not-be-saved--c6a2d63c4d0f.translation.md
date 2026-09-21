@@ -11,5 +11,5 @@ OpenID config could not be saved.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法儲存 OpenID 設定。
 ~~~

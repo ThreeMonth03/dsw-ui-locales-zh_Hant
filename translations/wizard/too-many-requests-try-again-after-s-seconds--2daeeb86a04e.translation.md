@@ -11,5 +11,5 @@ Too many requests. Try again after %s seconds.
 
 ## Translation (zh_Hant)
 ~~~text
-
+請求過於頻繁，請在 %s 秒後再試。
 ~~~

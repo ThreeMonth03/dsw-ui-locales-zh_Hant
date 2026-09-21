@@ -11,5 +11,5 @@ Compare Knowledge Models
 
 ## Translation (zh_Hant)
 ~~~text
-
+比較知識模型
 ~~~

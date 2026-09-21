@@ -11,5 +11,5 @@ Your sign-in attempt has expired or was started in a different window. Please tr
 
 ## Translation (zh_Hant)
 ~~~text
-
+這次登入已逾時，或是在其他視窗中開始。請重新登入。
 ~~~

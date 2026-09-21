@@ -11,5 +11,5 @@ Email Address Confirmation
 
 ## Translation (zh_Hant)
 ~~~text
-
+電子郵件地址確認
 ~~~

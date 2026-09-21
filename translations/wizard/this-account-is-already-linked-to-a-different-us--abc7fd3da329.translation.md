@@ -11,5 +11,5 @@ This account is already linked to a different user.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此帳號已連結至其他使用者。
 ~~~

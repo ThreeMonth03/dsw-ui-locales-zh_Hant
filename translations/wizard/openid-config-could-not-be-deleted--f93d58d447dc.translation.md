@@ -11,5 +11,5 @@ OpenID config could not be deleted.
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法刪除 OpenID 設定。
 ~~~

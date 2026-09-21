@@ -11,5 +11,5 @@ Plugin UUID
 
 ## Translation (zh_Hant)
 ~~~text
-
+外掛程式 UUID
 ~~~

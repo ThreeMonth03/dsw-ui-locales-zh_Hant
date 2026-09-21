@@ -11,5 +11,5 @@ Unable to parse the JSON translation file: %s
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法解析 JSON 翻譯檔案：%s
 ~~~

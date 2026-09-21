@@ -11,5 +11,5 @@ Unable to get OpenID config
 
 ## Translation (zh_Hant)
 ~~~text
-
+無法取得 OpenID 設定
 ~~~

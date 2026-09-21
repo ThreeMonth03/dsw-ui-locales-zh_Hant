@@ -11,5 +11,5 @@ The PO file has no 'Language' header field.
 
 ## Translation (zh_Hant)
 ~~~text
-
+PO 檔案的標頭中缺少 'Language' 欄位。
 ~~~

@@ -11,5 +11,5 @@ Unknown variable in request configuration for integration: %s
 
 ## Translation (zh_Hant)
 ~~~text
-
+整合項目的請求設定中有未知的變項：%s
 ~~~

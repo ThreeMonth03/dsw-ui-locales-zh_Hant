@@ -11,5 +11,5 @@ A newer version of this document template is available.
 
 ## Translation (zh_Hant)
 ~~~text
-
+此文件模板有較新的版本可用。
 ~~~
