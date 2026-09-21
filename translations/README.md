@@ -4,7 +4,7 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-129 open · 49 completed
+129 open · 7 completed
 
 ### Open (129)
 
@@ -138,56 +138,14 @@ Choose an open form and edit only its translation block.
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 - [Your sign-in attempt has expired or was started in a different window. Please try signing in again.](wizard/your-sign-in-attempt-has-expired-or-was-started--33595386d1f2.translation.md)
 
-### Completed (49)
+### Completed (7)
 
-- [%s project](wizard/s-project--ecf5f6372d65.translation.md)
-- [Add comment](wizard/add-comment--a1eeb46988b0.translation.md)
-- [Advanced configuration](wizard/advanced-configuration--cd1622219bd8.translation.md)
 - [All warnings have been resolved!](wizard/all-warnings-have-been-resolved--978bf6e598a8.translation.md)
-- [Allow users to register using this OpenID provider.](wizard/allow-users-to-register-using-this-openid-provid--e465ebb648fc.translation.md)
-- [Allows the application to access the basic profile information (name, username, profile picture,...](wizard/allows-the-application-to-access-the-basic-profi--11c38707f0fd.translation.md)
-- [Allows the application to access your email address and whether it has been verified.](wizard/allows-the-application-to-access-your-email-addr--6059a93ca5af.translation.md)
-- [Application (client) ID](wizard/application-client-id--d25cd01b90e1.translation.md)
 - [Assigned to %s](wizard/assigned-to-s--cd1d8b4851f2.translation.md)
-- [Bold](wizard/bold--152c0fd0f284.translation.md)
-- [Bullet List](wizard/bullet-list--7e82c90e9dc7.translation.md)
-- [Carefully review the list of what will be deleted before continuing.](wizard/carefully-review-the-list-of-what-will-be-delete--f3797eacf967.translation.md)
-- [Client Secret Value](wizard/client-secret-value--49190e9232e7.translation.md)
-- [Code Block](wizard/code-block--abd5500aafd6.translation.md)
-- [Create OpenID Config](wizard/create-openid-config--ef9d8ec8f76a.translation.md)
-- [Custom](wizard/custom--c799ce41ffd7.translation.md)
-- [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
-- [Directory (tenant) ID](wizard/directory-tenant-id--1bd8581c636a.translation.md)
-- [Expiration time of the user session in **hours**. Changing this value does not affect existing se...](wizard/expiration-time-of-the-user-session-in-hours-cha--818cbc6a6b81.translation.md)
-- [Expiration time of user email links (e.g., password reset, email confirmation) in **hours**.](wizard/expiration-time-of-user-email-links-e-g-password--2e3a661153ca.translation.md)
-- [Heading 2](wizard/heading-2--af85303292f1.translation.md)
-- [Heading 3](wizard/heading-3--74f1fd7ddeb2.translation.md)
-- [Image](wizard/image--b272ff58fb15.translation.md)
-- [Inline Code](wizard/inline-code--3e3664e6034d.translation.md)
-- [Italic](wizard/italic--45b960cba16c.translation.md)
 - [Knowledge Models:](wizard/knowledge-models--3cdf9b6dad28.translation.md)
-- [Last Name](wizard/last-name--152a86218bc3.translation.md)
-- [Link](wizard/link--dbdd277a9176.translation.md)
-- [Login as admin](wizard/login-as-admin--81437bb25f5e.translation.md)
-- [Markdown](wizard/markdown--93c9559a202f.translation.md)
 - [Measure](wizard/measure--64763b6030a5.translation.md)
-- [Non-Admin Login](wizard/non-admin-login--70ccaa90c0ab.translation.md)
-- [Ordered List](wizard/ordered-list--36c1d24412ec.translation.md)
 - [Projects:](wizard/projects--306678cb83f9.translation.md)
-- [public](wizard/public--8277817baa61.translation.md)
-- [Registration enabled](wizard/registration-enabled--90f026f48721.translation.md)
-- [Rich Text](wizard/rich-text--12f5fda7d964.translation.md)
-- [Session Expiration](wizard/session-expiration--4146d5835d68.translation.md)
-- [Set private](wizard/set-private--84700ad0a866.translation.md)
-- [Set public](wizard/set-public--de5435fb3838.translation.md)
-- [Strikethrough](wizard/strikethrough--3215d8559854.translation.md)
-- [There are no OpenID configurations.](wizard/there-are-no-openid-configurations--86a8e2b17af3.translation.md)
-- [This action cannot be undone.](wizard/this-action-cannot-be-undone--21371a25c09b.translation.md)
-- [This action will permanently delete:](wizard/this-action-will-permanently-delete--a3b8bacd240c.translation.md)
-- [Type "%s" to confirm](wizard/type-s-to-confirm--c07ce71e4262.translation.md)
 - [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
-- [User Email Link Expiration](wizard/user-email-link-expiration--0f26c0c5ab63.translation.md)
-- [View 1 comment](wizard/view-1-comment--3cdb0bc6b96f.translation.md)
 - [Weight](wizard/weight--e842a1889a45.translation.md)
 
 ## Mail
