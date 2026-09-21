@@ -11,5 +11,5 @@ Missing plugin.
 
 ## Translation (zh_Hant)
 ~~~text
-
+缺少外掛程式。
 ~~~
