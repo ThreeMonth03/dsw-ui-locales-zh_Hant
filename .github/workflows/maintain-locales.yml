@@ -1,18 +1,16 @@
-name: Maintain locale release lines
-
+name: Synchronize official translations
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 3 * * *"
-
 concurrency:
   group: locale-maintenance
   cancel-in-progress: false
-
 permissions:
   contents: write
-  issues: write
-
 jobs:
-  maintain:
-    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/maintain-locale.yml@main
+  sync:
+    if: github.ref == 'refs/heads/main'
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/sync-weblate.yml@53940c2f22ee3b84266b00fc1a5f56c82da61ca8
+    with:
+      tool_ref: 53940c2f22ee3b84266b00fc1a5f56c82da61ca8

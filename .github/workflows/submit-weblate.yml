@@ -1,0 +1,42 @@
+name: Submit translations to Weblate
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "DSW version branch (vX.Y)"
+        required: true
+        type: string
+      apply:
+        description: "Write the reviewed batch to official Weblate as fuzzy"
+        type: boolean
+        default: false
+      expected_plan:
+        description: "Reviewed plan hash from a dry run (required to apply)"
+        type: string
+        default: ""
+      allow_corrections:
+        description: "Include explicitly reviewed corrections to nonempty translations"
+        type: boolean
+        default: false
+      limit:
+        description: "Maximum candidates (1–200)"
+        type: number
+        default: 20
+concurrency:
+  group: weblate-submission-${{ inputs.version }}
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  submit:
+    if: github.ref == 'refs/heads/main'
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/submit-weblate.yml@53940c2f22ee3b84266b00fc1a5f56c82da61ca8
+    with:
+      tool_ref: 53940c2f22ee3b84266b00fc1a5f56c82da61ca8
+      version: ${{ inputs.version }}
+      apply: ${{ inputs.apply }}
+      expected_plan: ${{ inputs.expected_plan }}
+      allow_corrections: ${{ inputs.allow_corrections }}
+      limit: ${{ inputs.limit }}
+    secrets:
+      LOCALIZE_API_TOKEN: ${{ secrets.LOCALIZE_API_TOKEN }}

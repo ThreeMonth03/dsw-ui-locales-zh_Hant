@@ -1,57 +1,42 @@
 # Contributing translations
 
-You can contribute with GitHub's web editor. No programming or gettext knowledge is required.
+Use GitHub's web editor on the matching `sync/vX.Y` branch.
+Open `translations/README.md`, select an empty form, and edit only its translation block.
 
-## Edit a translation form
+````markdown
+## Translation (zh_Hant)
+~~~text
+Enter the Traditional Chinese translation here.
+~~~
+````
 
-1. Select the `sync/vX.Y` branch for the DSW version you are translating.
-2. Open `translations/README.md`. Choose a blank form under **Open**, or find the
-   form for a reported issue under **Open** or **Completed**.
-3. Use the pencil icon to edit the file.
-4. Edit only the `Translation (zh_Hant)` block, keeping its fences.
-5. Propose the change as a pull request to the same `sync/vX.Y` branch.
+Do not change the English source, context, hidden metadata, or fences.
+Preserve placeholders such as `%s`, `{name}`, and `${value}`, and preserve Markdown links.
+Use the surrounding interface to understand the wording.
 
-Do not edit the English source, headings, hidden metadata, or fence markers. Preserve placeholders
-such as `%s`, `{name}`, and `${value}` exactly. Follow `glossary/zh-Hant.csv` when it defines a term.
+Existing translations take precedence over the glossary when they conflict.
+If neither resolves a term, ask for clarification in the PR.
+For UI text, distinguish a DSW system project from a research project; do not mechanically
+replace every instance of「專案」with「計畫」.
 
-Prioritize empty fields and review the newly added translations. Leave existing
-wording alone unless a problem has been identified; it is maintained, not frozen.
-For a reported issue, propose a focused correction, link the report or discussion,
-and explain the change. Nonempty fuzzy translations can also receive reviewed
-corrections. Avoid unrelated rewrites and do not edit generated PO files or flags.
+## Review
 
-CI validates new translations and corrections alike. Automatic cross-version
-propagation still fills only matching blanks; correct existing wording through
-PRs to the affected branches. Official Weblate synchronization continues
-independently.
+Prioritize empty translations. Existing wording is maintained, not frozen:
+propose a focused correction when a problem is reported, and link the discussion.
+Avoid unrelated rewrites.
 
-CI checks the file structure and placeholders, builds the locale, and renders non-draft pull
-requests in a disposable DSW installation. A pull-request comment links to the screenshots and
-visible English-text report. An error message will identify any form that needs correction.
-Generated indexes and immutable locale release versions are updated automatically after merge.
+CI checks source identity and placeholders. You do not need to update the generated index or
+any version number. A maintainer submits reviewed batches to official Weblate with fuzzy status.
+Official review happens on Weblate; PR merge is not approval or automatic upload.
 
-When you need to navigate the translated interface in a browser, ask a maintainer to add the
-`live-preview` label. Contributors with label permission may add it directly. CI will add a
-temporary read-only DSW link to the pull request; no local setup is required.
+## Report a missing form
 
-## Report a missing form or incorrect translation
+Provide the DSW version, exact English text, screen context, and a screenshot if useful.
+A maintainer can create a form for an existing official POT entry that needs correction.
+A string absent from the official POT needs an upstream extraction fix, not a local workaround.
 
-Open an [issue](https://github.com/ThreeMonth03/dsw-ui-locales-zh_Hant/issues/new/choose) and provide:
-
-1. The DSW version.
-2. The page or navigation path.
-3. The complete English source, including punctuation and placeholders.
-4. A screenshot and reproduction steps.
-5. A suggested Traditional Chinese translation, if available.
-
-If an official translation needs correction but has no form, a maintainer can
-prepare a form from its official POT entry for the same review workflow.
-
-Questionnaire questions and choices belong to the Knowledge Model locale. Exported document text
-belongs to the Document Template. This repository covers DSW interface controls, navigation, and
-system messages.
+Knowledge Model questions and Document Template prose belong to their own translation projects.
 
 ## License
 
-By contributing translation content, you agree to publish it under the repository's CC BY 4.0
-license.
+Translation contributions are published under CC BY 4.0.
