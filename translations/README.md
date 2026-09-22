@@ -4,15 +4,13 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-61 open · 52 completed
+51 open · 52 completed
 
-### Open (61)
+### Open (51)
 
 - [Account](wizard/account--4fb8cd8ebb40.translation.md)
 - [Account disconnected successfully.](wizard/account-disconnected-successfully--c6b7be8bf029.translation.md)
-- [Added](wizard/added--4a1a1f472d6a.translation.md)
 - [Are you sure you want to disconnect %s account?](wizard/are-you-sure-you-want-to-disconnect-s-account--95d76aa83b1a.translation.md)
-- [Changed](wizard/changed--31a66db96e5e.translation.md)
 - [Check your email for the activation link.](wizard/check-your-email-for-the-activation-link--137c3936df37.translation.md)
 - [Compare](wizard/compare--8b87568c5ecc.translation.md)
 - [Compare Knowledge Models](wizard/compare-knowledge-models--9a2a23e8328f.translation.md)
@@ -28,18 +26,14 @@ Choose an open form and edit only its translation block.
 - [Failed to load connected accounts](wizard/failed-to-load-connected-accounts--118d8336b37a.translation.md)
 - [Fill in a valid URL.](wizard/fill-in-a-valid-url--4b8fffa1610a.translation.md)
 - [Front-channel logout URL](wizard/front-channel-logout-url--ba7f44af5a17.translation.md)
-- [Item Template Questions](wizard/item-template-questions--f32ab3ad9fcf.translation.md)
 - [Logo file size cannot exceed %s.](wizard/logo-file-size-cannot-exceed-s--edee8e0ba4d9.translation.md)
 - [Logo file size exceeds the limit.](wizard/logo-file-size-exceeds-the-limit--d6b276490f5d.translation.md)
-- [Max Size](wizard/max-size--199d17ce9d0f.translation.md)
 - [Microsoft](wizard/microsoft--c1f3e6fab304.translation.md)
 - [Missing plugin.](wizard/missing-plugin--cd4e5bdc857d.translation.md)
-- [No Change](wizard/no-change--7b48ec2e976a.translation.md)
 - [No plugin selected for plugin integration](wizard/no-plugin-selected-for-plugin-integration--64040cd9e752.translation.md)
 - [OpenID](wizard/openid--6fb499521e6e.translation.md)
 - [OpenID config could not be deleted.](wizard/openid-config-could-not-be-deleted--f93d58d447dc.translation.md)
 - [OpenID config could not be saved.](wizard/openid-config-could-not-be-saved--c6a2d63c4d0f.translation.md)
-- [Plugin error.](wizard/plugin-error--78f876089c04.translation.md)
 - [Plugin Integration ID](wizard/plugin-integration-id--221be1893f0e.translation.md)
 - [Plugin Integration Settings](wizard/plugin-integration-settings--ee6c747c3b60.translation.md)
 - [Plugin UUID](wizard/plugin-uuid--64a69c0c2cdd.translation.md)
@@ -47,8 +41,6 @@ Choose an open form and edit only its translation block.
 - [Redirect URI](wizard/redirect-uri--f0f11490df03.translation.md)
 - [Registration of new accounts via this service is disabled.](wizard/registration-of-new-accounts-via-this-service-is--fb38b1cc7a52.translation.md)
 - [Reload preview](wizard/reload-preview--86761a71185a.translation.md)
-- [Removed](wizard/removed--d3ddb1c92816.translation.md)
-- [Required Phase](wizard/required-phase--c3fdae066363.translation.md)
 - [Select Knowledge Models](wizard/select-knowledge-models--b2e62ceb456b.translation.md)
 - [Service](wizard/service--581e347598fe.translation.md)
 - [Sign up was successful](wizard/sign-up-was-successful--c5a3e6c919ef.translation.md)
@@ -62,9 +54,7 @@ Choose an open form and edit only its translation block.
 - [Unable to get OpenID configs.](wizard/unable-to-get-openid-configs--9d6cacdd8919.translation.md)
 - [Unable to get OpenID prefabs.](wizard/unable-to-get-openid-prefabs--331612a7d797.translation.md)
 - [Unable to load knowledge model.](wizard/unable-to-load-knowledge-model--edec4f4da36c.translation.md)
-- [Unexpected answer UUID "%s" at: %s](wizard/unexpected-answer-uuid-s-at-s--8a4d5191c3e3.translation.md)
 - [Unexpected bad things will happen if you don't read this!](wizard/unexpected-bad-things-will-happen-if-you-don-t-r--f5c09e80c702.translation.md)
-- [Unexpected reply type at: %s](wizard/unexpected-reply-type-at-s--d6788dea27c8.translation.md)
 - [You are about to permanently delete %s, including all dependent knowledge models, knowledge model...](wizard/you-are-about-to-permanently-delete-s-including--0f55da28e140.translation.md)
 - [You are about to permanently delete all versions of %s, including all dependent knowledge models,...](wizard/you-are-about-to-permanently-delete-all-versions--1bcec9e59ebe.translation.md)
 - [You have not connected any external accounts.](wizard/you-have-not-connected-any-external-accounts--b0a968d3b024.translation.md)
