@@ -35,19 +35,8 @@ No open forms.
 
 ## Mail
 
-8 open · 0 completed
+0 open · 0 completed
 
-### Open (8)
+### Open (0)
 
-- [(unknown)](mail/unknown--633a5c233df3.translation.md)
-- [Email Address Confirmation](mail/email-address-confirmation--8f4743da558a.translation.md)
-- [If you did not request this change, you can safely ignore this email.](mail/if-you-did-not-request-this-change-you-can-safel--1a5570d91f70.translation.md)
-- [In case you did not request this change, you can safely ignore this email.](mail/in-case-you-did-not-request-this-change-you-can--1530a3182d55.translation.md)
-- [To confirm that this email address is correct, please click on the button below.](mail/to-confirm-that-this-email-address-is-correct-pl--4aa462dd2cc1.translation.md)
-- [To confirm that this email address is correct, please proceed here](mail/to-confirm-that-this-email-address-is-correct-pl--9192f5d8f8bb.translation.md)
-- [Verify your email](mail/verify-your-email--60626ca46508.translation.md)
-- [You recently requested to change the email address associated with your DSW account.](mail/you-recently-requested-to-change-the-email-addre--22d7cd6a0aa3.translation.md)
-
-### Completed (0)
-
-No completed forms.
+No open forms.
