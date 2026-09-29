@@ -38,3 +38,6 @@ See the [maintainer guide](https://www.threemonth03.com/dsw-locale-tool/maintain
 for permissions, conflicts, and verification.
 
 GitHub Pages contains documentation only. This workflow does not deploy a DSW website.
+
+Download CI review evidence before it expires: synchronization reports are retained
+for 7 days, and pull-request checks and Weblate submission reports for 14 days.
