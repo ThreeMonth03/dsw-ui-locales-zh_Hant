@@ -30,9 +30,9 @@ permissions:
 jobs:
   submit:
     if: github.ref == 'refs/heads/main'
-    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/submit-weblate.yml@dd9c0b1aa1939f8144474d75f47b18a02ba3ccc0
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/submit-weblate.yml@7a4c5b21f19b8a763d59bb4d9be60eed8a5d0bb9
     with:
-      tool_ref: dd9c0b1aa1939f8144474d75f47b18a02ba3ccc0
+      tool_ref: 7a4c5b21f19b8a763d59bb4d9be60eed8a5d0bb9
       version: ${{ inputs.version }}
       apply: ${{ inputs.apply }}
       expected_plan: ${{ inputs.expected_plan }}

@@ -39,5 +39,6 @@ for permissions, conflicts, and verification.
 
 GitHub Pages contains documentation only. This workflow does not deploy a DSW website.
 
-Download CI review evidence before it expires: synchronization reports are retained
-for 7 days, and pull-request checks and Weblate submission reports for 14 days.
+Read synchronization and pull-request check reports in the Actions job summary.
+Explicit Weblate submission reports, delta PO files, and preflight backups are
+retained for 14 days. Download evidence needed for a longer review before it expires.
