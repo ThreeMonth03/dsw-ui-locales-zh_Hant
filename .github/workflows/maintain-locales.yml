@@ -11,6 +11,6 @@ permissions:
 jobs:
   sync:
     if: github.ref == 'refs/heads/main'
-    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/sync-weblate.yml@7a4c5b21f19b8a763d59bb4d9be60eed8a5d0bb9
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/sync-weblate.yml@b8395e968713a784b9265e731e61737f012098a3
     with:
-      tool_ref: 7a4c5b21f19b8a763d59bb4d9be60eed8a5d0bb9
+      tool_ref: b8395e968713a784b9265e731e61737f012098a3
