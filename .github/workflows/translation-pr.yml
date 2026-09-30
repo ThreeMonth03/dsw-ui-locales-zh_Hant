@@ -7,9 +7,9 @@ permissions:
   contents: read
 jobs:
   check:
-    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/check-translations.yml@a973931e0a0111dbc0b5993a83e1ed86964ca90f
+    uses: ThreeMonth03/dsw-locale-tool/.github/workflows/check-translations.yml@7a4c5b21f19b8a763d59bb4d9be60eed8a5d0bb9
     with:
-      tool_ref: a973931e0a0111dbc0b5993a83e1ed86964ca90f
+      tool_ref: 7a4c5b21f19b8a763d59bb4d9be60eed8a5d0bb9
       base_sha: ${{ github.event.pull_request.base.sha }}
       head_sha: ${{ github.sha }}
       head_repository: ${{ github.repository }}
