@@ -1,4 +1,6 @@
 source,target,notes
+Weight,權重,Metric answer importance used in the weighted average; range 0 to 1
+Measure,衡量值,Metric answer evaluation or aggregated result; higher values are better
 Project,專案,DSW project
 Questionnaire,問卷,使用者填寫的主要介面
 Knowledge Model,知識模型,縮寫 KM
@@ -7,4 +9,3 @@ Document,文件,輸出成品
 Tenant,租戶,多租戶系統語境
 Submission,提交,名詞依畫面情境可用「提交內容」
 Preview,預覽,動詞與名詞同形
-

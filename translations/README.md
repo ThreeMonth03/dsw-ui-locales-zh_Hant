@@ -4,17 +4,13 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-67 open · 52 completed
+51 open · 52 completed
 
-### Open (67)
+### Open (51)
 
-- [%s knowledge model](wizard/s-knowledge-model--d165e83c9286.translation.md)
-- [%s knowledge model editor](wizard/s-knowledge-model-editor--f51b9eab14d5.translation.md)
 - [Account](wizard/account--4fb8cd8ebb40.translation.md)
 - [Account disconnected successfully.](wizard/account-disconnected-successfully--c6b7be8bf029.translation.md)
-- [Added](wizard/added--4a1a1f472d6a.translation.md)
 - [Are you sure you want to disconnect %s account?](wizard/are-you-sure-you-want-to-disconnect-s-account--95d76aa83b1a.translation.md)
-- [Changed](wizard/changed--31a66db96e5e.translation.md)
 - [Check your email for the activation link.](wizard/check-your-email-for-the-activation-link--137c3936df37.translation.md)
 - [Compare](wizard/compare--8b87568c5ecc.translation.md)
 - [Compare Knowledge Models](wizard/compare-knowledge-models--9a2a23e8328f.translation.md)
@@ -26,25 +22,18 @@ Choose an open form and edit only its translation block.
 - [Disconnect](wizard/disconnect--69c5373c3eee.translation.md)
 - [Disconnect Account](wizard/disconnect-account--5f5f2991a83c.translation.md)
 - [Edit OpenID Config](wizard/edit-openid-config--d041b8726387.translation.md)
-- [Empty label for choice](wizard/empty-label-for-choice--9b3e3d63ba3e.translation.md)
 - [Failed to disconnect account.](wizard/failed-to-disconnect-account--a6f42af22145.translation.md)
 - [Failed to load connected accounts](wizard/failed-to-load-connected-accounts--118d8336b37a.translation.md)
 - [Fill in a valid URL.](wizard/fill-in-a-valid-url--4b8fffa1610a.translation.md)
-- [Follow-up Questions](wizard/follow-up-questions--bfeb0c1ba971.translation.md)
 - [Front-channel logout URL](wizard/front-channel-logout-url--ba7f44af5a17.translation.md)
-- [Item Template Questions](wizard/item-template-questions--f32ab3ad9fcf.translation.md)
-- [Knowledge Model Editors:](wizard/knowledge-model-editors--0ba91ac3e8ea.translation.md)
 - [Logo file size cannot exceed %s.](wizard/logo-file-size-cannot-exceed-s--edee8e0ba4d9.translation.md)
 - [Logo file size exceeds the limit.](wizard/logo-file-size-exceeds-the-limit--d6b276490f5d.translation.md)
-- [Max Size](wizard/max-size--199d17ce9d0f.translation.md)
 - [Microsoft](wizard/microsoft--c1f3e6fab304.translation.md)
 - [Missing plugin.](wizard/missing-plugin--cd4e5bdc857d.translation.md)
-- [No Change](wizard/no-change--7b48ec2e976a.translation.md)
 - [No plugin selected for plugin integration](wizard/no-plugin-selected-for-plugin-integration--64040cd9e752.translation.md)
 - [OpenID](wizard/openid--6fb499521e6e.translation.md)
 - [OpenID config could not be deleted.](wizard/openid-config-could-not-be-deleted--f93d58d447dc.translation.md)
 - [OpenID config could not be saved.](wizard/openid-config-could-not-be-saved--c6a2d63c4d0f.translation.md)
-- [Plugin error.](wizard/plugin-error--78f876089c04.translation.md)
 - [Plugin Integration ID](wizard/plugin-integration-id--221be1893f0e.translation.md)
 - [Plugin Integration Settings](wizard/plugin-integration-settings--ee6c747c3b60.translation.md)
 - [Plugin UUID](wizard/plugin-uuid--64a69c0c2cdd.translation.md)
@@ -52,8 +41,6 @@ Choose an open form and edit only its translation block.
 - [Redirect URI](wizard/redirect-uri--f0f11490df03.translation.md)
 - [Registration of new accounts via this service is disabled.](wizard/registration-of-new-accounts-via-this-service-is--fb38b1cc7a52.translation.md)
 - [Reload preview](wizard/reload-preview--86761a71185a.translation.md)
-- [Removed](wizard/removed--d3ddb1c92816.translation.md)
-- [Required Phase](wizard/required-phase--c3fdae066363.translation.md)
 - [Select Knowledge Models](wizard/select-knowledge-models--b2e62ceb456b.translation.md)
 - [Service](wizard/service--581e347598fe.translation.md)
 - [Sign up was successful](wizard/sign-up-was-successful--c5a3e6c919ef.translation.md)
@@ -67,10 +54,7 @@ Choose an open form and edit only its translation block.
 - [Unable to get OpenID configs.](wizard/unable-to-get-openid-configs--9d6cacdd8919.translation.md)
 - [Unable to get OpenID prefabs.](wizard/unable-to-get-openid-prefabs--331612a7d797.translation.md)
 - [Unable to load knowledge model.](wizard/unable-to-load-knowledge-model--edec4f4da36c.translation.md)
-- [Unexpected answer UUID "%s" at: %s](wizard/unexpected-answer-uuid-s-at-s--8a4d5191c3e3.translation.md)
 - [Unexpected bad things will happen if you don't read this!](wizard/unexpected-bad-things-will-happen-if-you-don-t-r--f5c09e80c702.translation.md)
-- [Unexpected reply type at: %s](wizard/unexpected-reply-type-at-s--d6788dea27c8.translation.md)
-- [Used in item select questions:](wizard/used-in-item-select-questions--60540d33f661.translation.md)
 - [You are about to permanently delete %s, including all dependent knowledge models, knowledge model...](wizard/you-are-about-to-permanently-delete-s-including--0f55da28e140.translation.md)
 - [You are about to permanently delete all versions of %s, including all dependent knowledge models,...](wizard/you-are-about-to-permanently-delete-all-versions--1bcec9e59ebe.translation.md)
 - [You have not connected any external accounts.](wizard/you-have-not-connected-any-external-accounts--b0a968d3b024.translation.md)
@@ -99,7 +83,6 @@ Choose an open form and edit only its translation block.
 - [Directory (tenant) ID](wizard/directory-tenant-id--1bd8581c636a.translation.md)
 - [Expiration time of the user session in **hours**. Changing this value does not affect existing se...](wizard/expiration-time-of-the-user-session-in-hours-cha--818cbc6a6b81.translation.md)
 - [Expiration time of user email links (e.g., password reset, email confirmation) in **hours**.](wizard/expiration-time-of-user-email-links-e-g-password--2e3a661153ca.translation.md)
-- [First Name](wizard/first-name--ffcef0427a6a.translation.md)
 - [Heading 2](wizard/heading-2--af85303292f1.translation.md)
 - [Heading 3](wizard/heading-3--74f1fd7ddeb2.translation.md)
 - [If enabled, all users can use internal login using username and password. Otherwise, only admin u...](wizard/if-enabled-all-users-can-use-internal-login-usin--1f3805454a50.translation.md)
@@ -111,6 +94,7 @@ Choose an open form and edit only its translation block.
 - [Link](wizard/link--dbdd277a9176.translation.md)
 - [Login as admin](wizard/login-as-admin--81437bb25f5e.translation.md)
 - [Markdown](wizard/markdown--93c9559a202f.translation.md)
+- [Measure](wizard/measure--64763b6030a5.translation.md)
 - [Non-Admin Login](wizard/non-admin-login--70ccaa90c0ab.translation.md)
 - [Ordered List](wizard/ordered-list--36c1d24412ec.translation.md)
 - [Plugin](wizard/plugin--96fd89c284da.translation.md)
@@ -126,26 +110,23 @@ Choose an open form and edit only its translation block.
 - [This action cannot be undone.](wizard/this-action-cannot-be-undone--21371a25c09b.translation.md)
 - [This action will permanently delete:](wizard/this-action-will-permanently-delete--a3b8bacd240c.translation.md)
 - [Type "%s" to confirm](wizard/type-s-to-confirm--c07ce71e4262.translation.md)
-- [Unable to delete the file.](wizard/unable-to-delete-the-file--f3fc94af0383.translation.md)
 - [Uploaded files cannot be larger than %s, but you can set a smaller limit.](wizard/uploaded-files-cannot-be-larger-than-s-but-you-c--d363300038ab.translation.md)
 - [User Email Link Expiration](wizard/user-email-link-expiration--0f26c0c5ab63.translation.md)
 - [View 1 comment](wizard/view-1-comment--3cdb0bc6b96f.translation.md)
+- [Weight](wizard/weight--e842a1889a45.translation.md)
 
 ## Mail
 
-9 open · 0 completed
+6 open · 0 completed
 
-### Open (9)
+### Open (6)
 
-- [(unknown)](mail/unknown--633a5c233df3.translation.md)
 - [Email Address Confirmation](mail/email-address-confirmation--8f4743da558a.translation.md)
 - [If you did not request this change, you can safely ignore this email.](mail/if-you-did-not-request-this-change-you-can-safel--1a5570d91f70.translation.md)
 - [In case you did not request this change, you can safely ignore this email.](mail/in-case-you-did-not-request-this-change-you-can--1530a3182d55.translation.md)
-- [Question](mail/question--c1edb4e27a88.translation.md)
 - [To confirm that this email address is correct, please click on the button below.](mail/to-confirm-that-this-email-address-is-correct-pl--4aa462dd2cc1.translation.md)
 - [To confirm that this email address is correct, please proceed here](mail/to-confirm-that-this-email-address-is-correct-pl--9192f5d8f8bb.translation.md)
 - [Verify your email](mail/verify-your-email--60626ca46508.translation.md)
-- [You recently requested to change the email address associated with your DSW account.](mail/you-recently-requested-to-change-the-email-addre--22d7cd6a0aa3.translation.md)
 
 ### Completed (0)
 

@@ -1,44 +1,44 @@
 # Translator guide
 
-## Fill a blank form
+## Fill an empty translation
 
-A translation form looks like this:
+Choose the DSW version branch and open `translations/README.md`.
+Use the pencil icon on a form and edit only its `Translation (zh_Hant)` block.
+Leave the English source, hidden metadata, headings, and fences unchanged.
 
-````markdown
-## Source (en)
-~~~text
-Save changes
-~~~
+Keep placeholders and links intact. Read the interface context before choosing terminology.
+Existing Traditional Chinese translations are the baseline; use the glossary where existing
+usage does not provide an answer.
 
-## Translation (zh_Hant)
-~~~text
+For metrics, use「權重」for `Weight` and「衡量值」for `Measure`.
+FAIR metric names and descriptions belong to the Knowledge Model locale.
 
-~~~
-````
+## Submit and review
 
-Enter the translation between the second pair of fences:
+Open a PR to the same `sync/vX.Y` branch. CI validates the contribution as data.
+You do not need to regenerate the index or change version numbers.
 
-````markdown
-## Translation (zh_Hant)
-~~~text
-儲存變更
-~~~
-````
+Maintainers prepare a bounded Weblate submission and inspect its report before applying it.
+New submissions are fuzzy, not approved. Nonempty official translations are protected by default.
+A completed local form disappears after synchronization sees the same official translation;
+the official fuzzy or approved state remains unchanged.
 
-Leave every other part of the file unchanged. For plural sources, one Traditional Chinese block is
-used because this locale has one gettext plural form.
+For a reported issue in existing wording, open a focused correction PR and link the discussion.
+Existing translations are maintained, not archived. Do not rewrite unrelated wording.
 
-## Translation guidelines
+## Maintainer actions
 
-- Follow `glossary/zh-Hant.csv` for established terms.
-- Preserve `%s`, `{name}`, `${value}`, and similar placeholders exactly.
-- Preserve Markdown links and formatting when they are part of the source message.
-- Use the screenshot or UI context instead of translating an ambiguous source in isolation.
-- Keep product names, identifiers, and standard abbreviations unchanged unless the glossary says
-  otherwise.
+Run **Synchronize official translations** to refresh snapshots and forms.
+Run **Submit translations to Weblate** with `apply` off to download a report and delta PO files.
+After reviewing the report, use its plan hash as `expected_plan` and enable `apply`.
+A changed batch is rejected, including changes to the proposed wording or prior Weblate values.
 
-## See the translation in DSW
+Uploads require the repository Actions secret `LOCALIZE_API_TOKEN`.
+See the [maintainer guide](https://www.threemonth03.com/dsw-locale-tool/maintainers.html)
+for permissions, conflicts, and verification.
 
-CI builds the pull request into a locale ZIP. A preview workflow can import that ZIP into a
-disposable DSW installation and upload screenshots plus a report of visible English UI text. See the
-[preview guide](https://www.threemonth03.com/dsw-locale-tool/preview.html) for artifact details.
+GitHub Pages contains documentation only. This workflow does not deploy a DSW website.
+
+Read synchronization and pull-request check reports in the Actions job summary.
+Explicit Weblate submission reports, delta PO files, and preflight backups are
+retained for 14 days. Download evidence needed for a longer review before it expires.
