@@ -11,5 +11,5 @@ Delete OpenID
 
 ## Translation (zh_Hant)
 ~~~text
-
+刪除 OpenID
 ~~~
