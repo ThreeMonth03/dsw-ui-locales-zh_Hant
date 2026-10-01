@@ -4,9 +4,9 @@ Choose an open form and edit only its translation block.
 
 ## Wizard
 
-51 open · 52 completed
+50 open · 53 completed
 
-### Open (51)
+### Open (50)
 
 - [Account](wizard/account--4fb8cd8ebb40.translation.md)
 - [Account disconnected successfully.](wizard/account-disconnected-successfully--c6b7be8bf029.translation.md)
@@ -18,7 +18,6 @@ Choose an open form and edit only its translation block.
 - [Complete Your Registration](wizard/complete-your-registration--a176418164f5.translation.md)
 - [Connect Account](wizard/connect-account--147023b02a6d.translation.md)
 - [Connected Accounts](wizard/connected-accounts--949c17132160.translation.md)
-- [Delete OpenID](wizard/delete-openid--a9acbd950d12.translation.md)
 - [Disconnect](wizard/disconnect--69c5373c3eee.translation.md)
 - [Disconnect Account](wizard/disconnect-account--5f5f2991a83c.translation.md)
 - [Edit OpenID Config](wizard/edit-openid-config--d041b8726387.translation.md)
@@ -60,7 +59,7 @@ Choose an open form and edit only its translation block.
 - [You have not connected any external accounts.](wizard/you-have-not-connected-any-external-accounts--b0a968d3b024.translation.md)
 - [You will no longer be able to use it to log in.](wizard/you-will-no-longer-be-able-to-use-it-to-log-in--054c883350dd.translation.md)
 
-### Completed (52)
+### Completed (53)
 
 - [days](wizard/days--3ff4806cad68.translation.md)
 - [%s project](wizard/s-project--ecf5f6372d65.translation.md)
@@ -80,6 +79,7 @@ Choose an open form and edit only its translation block.
 - [Create OpenID Config](wizard/create-openid-config--ef9d8ec8f76a.translation.md)
 - [Custom](wizard/custom--c799ce41ffd7.translation.md)
 - [Delete %s](wizard/delete-s--d24909534fa7.translation.md)
+- [Delete OpenID](wizard/delete-openid--a9acbd950d12.translation.md)
 - [Directory (tenant) ID](wizard/directory-tenant-id--1bd8581c636a.translation.md)
 - [Expiration time of the user session in **hours**. Changing this value does not affect existing se...](wizard/expiration-time-of-the-user-session-in-hours-cha--818cbc6a6b81.translation.md)
 - [Expiration time of user email links (e.g., password reset, email confirmation) in **hours**.](wizard/expiration-time-of-user-email-links-e-g-password--2e3a661153ca.translation.md)
