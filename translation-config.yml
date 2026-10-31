@@ -20,4 +20,7 @@ versions:
     state: maintenance
   v4.34:
     upstream_ref: v4.34
+    state: maintenance
+  v4.35:
+    upstream_ref: v4.35
     state: active
